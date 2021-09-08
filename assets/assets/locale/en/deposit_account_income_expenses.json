@@ -1,0 +1,14 @@
+{
+    "title" : "Datos del mes de ",
+    "total_incomes_text" : "Ingresos",
+    "total_expenses_text" : "Egresos",
+    "total_incomes_icon" : "SEND_MONEY_FROM",
+    "total_expenses_icon" : "SEND_MONEY_TO",
+    "switch_card_graphics_text" : "Ver gráfica de ingresos y egresos",
+    "switch_card_totals_text" : "Ver resumen de ingresos y egresos",
+    "switch_card_graphics_icon" : "PERFORMANCE",
+    "switch_card_totals_icon" : "SQUARE",
+    "errorTitle" : "Algo salió mal",
+    "errorMessage" : "Ocurrió un error al momento de cargar la información. Inténtalo nuevamente.",
+    "errorLinkText" : "Reintentar"
+}

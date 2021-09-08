@@ -1,0 +1,26 @@
+{
+    "autenticacion": {
+        "/intro": {
+            "flujo": "primer_ingreso",
+            "pantalla": "pantalla_inicial",
+            "elemento": ""
+        },
+        "/login": {
+            "flujo": "iniciar_sesion",
+            "pantalla": "pantalla_documento",
+            "elemento": "",
+            "etapa": "paso_1"
+        },
+        "/password": {
+            "flujo": "iniciar_sesion",
+            "pantalla": "pantalla_clave",
+            "elemento": "",
+            "etapa": "paso_2"
+        },
+        "/home": {
+            "flujo": "home",
+            "pantalla": "home_no_autenticado",
+            "elemento": ""
+        }
+    }
+}

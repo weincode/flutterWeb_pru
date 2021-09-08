@@ -1,0 +1,165 @@
+{
+  "dynamicKeyVisible": false,
+  "invalid_code_message": "Código de seguridad no válido",
+  "validate_dynamic_key_message": "Validando clave dinamica",
+  "validate_email_message": "Validando correo electrónico",
+  "validate_code_message": "Validando código de seguridad",
+  "register_email_modal": {
+    "type": "info",
+    "text": "Para cambiar tu número de Bancolombía A la mano, primero debes agregar un correo electrónico.",
+    "confirm_button_label": "AGREGAR CORREO",
+    "cancel_button_label": "CERRAR"
+  },
+  "dynamic_key": {
+    "validation_label": "Validando clave dinámica",
+    "validation_failed_label": "No se pudo validar la clave dinámica"
+  },
+  "form_page": {
+    "back_button_text": "Volver",
+    "next_button_text": "Siguiente",
+    "invalid_number_error": "Debe ser un número válido ",
+    "different_numbers_error": "Los números ingresados deben ser iguales",
+    "equals_numbers_error": "El número debe ser diferente del actual",
+    "subtitle": "CAMBIAR NÚMERO DE CELULAR",
+    "title": "Ingresa el nuevo número",
+    "max_phone_number_length": 10,
+    "phone_number_start": "3",
+    "errors": [
+      "Los números ingresados deben ser iguales"
+    ],
+    "new_number_input": {
+      "icon": "SMARTPHONE",
+      "label_text": "Nuevo número de celular"
+    },
+    "confirm_number_input": {
+      "icon": "SMARTPHONE",
+      "label_text": "Confirmar nuevo número de celular"
+    },
+    "next_page_label": "Siguiente",
+    "confirmation_label": "Autorizo a Bancolombia para que el número de mi celular y correo electrónico, sean tratados para contactarme y/o enviarme la información relacionada con la apertura de la cuenta. Igualmente para que me consulten ante Operadores de Información y Riesgo con el fin de verificar mi información personal."
+  },
+  "change_confirmation": {
+    "cancelModal": {
+      "description": "¿Quieres cancelar el cambio de número de cuenta?",
+      "btnPrimaryLabel": "SÍ",
+      "btnSecondaryLabel": "NO"
+    },
+    "title": "Verifica el cambio",
+    "subtitle": "CAMBIAR NÚMERO DE CELULAR",
+    "next_page_enabled": false,
+    "conditions_enabled": false,
+    "number_value": "3002717199",
+    "value_label": "Nuevo número de celular",
+    "change_value_button_label": "Cambiar",
+    "change_value_button_icon": "ARROW2_RIGHT",
+    "accepts_condition_label": "Aceptar",
+    "accepts_condition_label_bold": "Términos y condiciones",
+    "accept_text": "Cambiar",
+    "cancel_text": "Cancelar",
+    "next_button_label": "Siguiente",
+    "back_button_label": "Volver",
+    "updating_text": "Actualizando",
+    "security_code_generation": "Generando código de seguridad",
+    "terms_and_conditions": {
+      "header": {
+        "leftItem": {
+          "label": "Volver",
+          "icon": "ARROW2_LEFT",
+          "enabled": true
+        },
+        "rightItem": {
+          "label": "Aceptar",
+          "icon": "ARROW2_RIGHT",
+          "enabled": true
+        }
+      },
+      "subtitle": "Contrato de cuenta de ahorros de trámite simplificado de Ahorro A la mano",
+      "title": "Términos y condiciones",
+      "content": "La Cuenta sólo se abrirá a favor de personas naturales residentes en Colombia que cumplan con lo establecido en las políticas y requisitos exigidos por el Banco y quienes declaran ser persona capaz para contratar. Para la apertura de la cuenta, el ahorrador se obliga a suministrar la información requerida a través del teléfono móvil o celular, sin perjuicio de la facultad de El Banco de solicitar datos o documentación adicional. Por disposiciones legales, sólo se permite una cuenta de ahorros de trámite simplificado por persona en la misma Entidad Financiera. En el evento en que El Banco detecte que El Titular de La Cuenta ya posee otra(s) cuenta(s) con similares características en El Banco, se abstendrá de abrir la cuenta informando de tal decisión a El Titular de la misma.\n La cuenta tendrá un único titular y estará asociada al teléfono móvil o celular desde el cual fue abierta, y cuyo número será el que la identificará junto con un prefijo establecido por el Banco, el cual será anunciado al momento de la apertura de la cuenta. \nEl instrumento único para el manejo de La Cuenta será el teléfono móvil o celular asociado a la misma. No se expedirá libreta ni tarjeta personal para el manejo de La Cuenta ni habrá cobro por cuota de manejo del teléfono móvil o celular. \nLos recursos depositados serán remunerados a la tasa de interés de política vigente para personas naturales publicada en todas las sucursales de El Banco. Los intereses se liquidarán diariamente y el abono se realizará de forma mensual o por transacción efectuada. La tasa efectiva reconocida sobre el saldo depositado estará publicada en  www.grupobancolombia.com \n El Banco podrá cobrar por cada uno de los servicios, operaciones y/o transacciones ofrecidos a través de La Cuenta, caso en el cual deberá informar de manera previa al cliente en los plazos que determine la ley, y a través de la página web, o en otro medio y/o canal que establezca la normatividad vigente. Igualmente, dichas tarifas serán publicadas en el tarifario de cada una de las Sucursales de El Banco y de la página web  www.grupobancolombia.com  \n No se requerirá depósito inicial para la apertura de La Cuenta, la cual se efectuará por medio del registro a través del teléfono móvil o el celular.  \n No se requerirá saldo mínimo a mantener en La Cuenta durante la vigencia del contrato.  \n El saldo depositado en La Cuenta no podrá superar en ningún momento los 7.9 salarios mínimos mensuales legales vigentes. Si la operación crédito es por un valor tal que conlleve a que el saldo de La Cuenta supere los 7.9 SMMLV, dicha operación será rechazada.  \n El monto total de las operaciones débito no podrá superar en el mes calendario los 2.9 salarios mínimos mensuales legales vigentes. Una vez se llegue a este límite, El Banco bloqueará las operaciones débito habilitándolas de nuevo en el mes siguiente. En caso en que se llegue a exceder el monto aquí señalado, El banco podrá bloquear la cuenta, solicitar las explicaciones necesarias y si es del caso, cancelarla. El Ahorrador podrá matricular débitos automáticos a La Cuenta con la finalidad de atender el pago de obligaciones con El Banco o con terceros. En este caso, deberá reservar para cada mes, el cupo correspondiente al valor total de la(s) obligación(es) a su cargo de tal manera que dicho(s) monto(s) sumado(s) al valor de las demás operaciones débito del mes, no superen el tope establecido en el presente numeral. Si llegada la fecha para el débito automático, el valor del mismo sumado al valor total de los demás débitos realizados en el mes supera los 2.9 salarios mínimos mensuales legales vigentes, EL BANCO no procesará la orden de débito automático para el respectivo mes. Lo anterior, no exonera al cliente de su responsabilidad de cumplir con los pagos de sus obligaciones. \n Si La Cuenta llegare a permanecer más de 180 días comunes sin presentar movimiento, ésta se inactivará. Para reactivarla, el cliente deberá comunicarse con la Sucursal Telefónica y adelantar el procedimiento señalado por El Banco para el efecto.  \n Con la presentación de la solicitud de marcación de exención El Titular de La Cuenta declara conocer que la exención prevista en el numeral 27 del artículo 879 del Estatuto Tributario sólo aplica a una Cuenta de Ahorro de Trámite Simplificado, una cuenta de ahorro electrónica o un depósito electrónico que pertenezcan a un mismo y único titular persona natural, en un mismo establecimiento de crédito; por tanto, certifica que a la fecha no posee una cuenta de ahorro electrónica o un depósito electrónico en El Banco que este gozando de esta exención; y autoriza a El Banco para que, cuando exista  alguna inexactitud en lo declarado, proceda a la desmarcación de La Cuenta y a debitar el impuesto no cobrado.  \n Con la aceptación del presente contrato, se entenderá presentada solicitud a El Banco para la marcación de La Cuenta exenta del cobro del Gravamen a los Movimientos Financieros (GMF) a menos que el Banco establezca que El Titular ya posee una Cuenta de Ahorros electrónica o un Depósito Electrónico marcados como exentos, en El Banco. La exención aplicará hasta que el total de retiros mensuales alcance el valor de sesenta y cinco (65) Unidades de Valor Tributario UVT (unidades cuyo valor se actualiza anualmente). En caso en que La Cuenta no haya quedado marcada como exenta del Gravamen a los Movimientos Financieros, El Titular de la misma será notificado por medio de un mensaje de texto a su teléfono móvil o celular.  \n Para desmarcar La Cuenta como exenta del cobro del Gravamen a los Movimientos Financieros, El Titular de la misma deberá comunicarse con la sucursal telefónica de Bancolombia 018000931987.  \n Los movimientos crédito realizados en La Cuenta serán informados al titular por medio de mensajes SMS al teléfono móvil o celular. Este servicio no tendrá ningún costo.  \n El Titular de La Cuenta autoriza a El Banco el envío de mensajes SMS al teléfono móvil o celular asociado a La Cuenta, que contengan información comercial, legal, de productos o servicios, de seguridad o esté relacionado con las operaciones o transacciones realizadas con El Banco y cuyo contenido se considere necesario y/o apropiado para la correcta prestación de los servicios financieros.  \nEl comprobante de la transacción realizada desde el menú del teléfono móvil o celular será enviado a dicho dispositivo través de un mensaje de notificación y confirmación.  \nEl extracto de La Cuenta estará disponible para El Titular, quien lo podrá solicitar en cualquiera de las Sucursales Bancolombia. En caso en que El Titular de La Cuenta posea otros productos con Bancolombia, también podrá solicitar el extracto por la Sucursal virtual Personas de Bancolombia.  \nLa clave constituirá la firma electrónica que identificará al titular de La Cuenta en sus relaciones con El Banco, sin perjuicio de la exigencia de seguridades adicionales, tales como segunda clave, para la realización de ciertas transacciones u operaciones. Dicha clave es personal e intransferible y por seguridad, no debe ser suministrada a terceros a fin de que nadie más tenga acceso a los servicios ofrecidos. La responsabilidad en cuanto a su custodia y manejo es exclusiva de El Titular de La Cuenta. Por tanto, no habrá autorizados para el manejo de La Cuenta y El Titular no podrá ceder ni hacerse sustituir por terceros en el ejercicio de los derechos y compromisos que se le imponen. El Titular será responsable por el incumplimiento de la obligación que aquí asume.  \nEl Titular de La Cuenta acepta como medios válidos de prueba de las operaciones y/o transacciones efectuadas, entre otros, los registros magnéticos que se originan bajo su clave y seguridad adicional, si la hubiere; por tanto, correrán bajo su responsabilidad las operaciones y/o transacciones que se deriven del uso de aquellas, ya sea ante El Banco o terceros, a menos que exista responsabilidad imputable a El Banco; y sin perjuicio de la facultad que le asiste para controvertir dichas transacciones aún por la vía judicial.  \nEs deber de El Titular cambiar la clave periódicamente y cuando la digite, protegerla con las manos y cuerpo para que no sea vista por terceros.  \nSe encuentran habilitadas las siguientes operaciones y transacciones desde el Menú del teléfono móvil o celular asociado a La Cuenta: - Envío de Dinero: Transferencias hacia cuentas de ahorros o corrientes, propias o de terceros en Bancolombia, sin perjuicio de las medidas de seguridad que establezca El Banco para la habilitación de la transacción. - Retiro de Dinero: Retiros en efectivo desde cualquier cajero de la red Bancolombia o Corresponsal Bancario, para lo cual se asignará un PIN cuya vigencia será de 30 minutos, pasados los cuales será necesaria la solicitud de uno nuevo para efectuar el retiro. - Recargas de Prepago: Recargas de celular prepago de acuerdo con los términos y condiciones establecidos por la compañía celular a la cual está adscrito el celular a recargar. - Pagos de facturas de servicios públicos y de celulares. - Consulta del saldo de La Cuenta. - Cambio de clave de La Cuenta. - Consulta de movimientos de La Cuenta del mes actual y el anterior (aplica sólo para APP Ahorro a la Mano).  \nSe pueden realizar las siguientes operaciones y transacciones hacia o en la cuenta de ahorros de trámite simplificado: - Transferencias desde cuentas de ahorros o corrientes Bancolombia a través de los canales habilitados por El Banco para el efecto. - Consignaciones en efectivo por medio de los canales habilitados por El Banco para el efecto. - Consulta de movimientos por medio de las canales habilitados por El Banco para el efecto. - Novedades y actualizaciones por medio de los canales habilitados para el efecto.  \nEl Banco informará en su página web  www.grupobancolombia.com los medios, canales, operaciones y transacciones habilitados por la entidad para la utilización de La Cuenta.  \nLa Cuenta no permitirá la consignación de cheques Bancolombia ni de otras entidades financieras. \nEn el evento en que El Titular de La Cuenta desee cancelarla unilateralmente, deberá comunicarse con la Sucursal telefónica de Bancolombia y efectuar el procedimiento indicado para el efecto. Si al momento de terminar este contrato, el saldo depositado en La Cuenta supera tres (3) salarios mínimos mensuales legales vigentes, El Titular se obliga a diligenciar y entregar a El Banco el formulario de vinculación.  \nEn el evento en que El Titular de La Cuenta ya posea otros productos con El Banco, la clave para la apertura inicial y la realización de operaciones y/o transacciones, será aquella que ya posee en El Banco. En caso en que El Titular no posea otros productos con El Banco, al momento de la apertura deberá crear su clave.  \nLa custodia y manejo de la SIM CARD y el teléfono móvil o celular desde el cual se manejará La Cuenta es responsabilidad exclusiva de EL CLIENTE, quien se compromete a bloquear la clave en caso de hurto o pérdida de la SIM CARD y el teléfono móvil o celular so pena de responder por los perjuicios que se causen y siempre que no haya habido responsabilidad atribuible a El Banco.  \nEn caso de cambio de número de celular, El Titular se obliga a informar dicha situación so pena de continuar respondiendo por las transacciones y/o operaciones que se efectúen con la misma.  \nBancolombia asignará un PIN para el retiro de efectivo en cajeros, el cual deberá custodiarse por su titular y no ser entregado a terceros. Al momento de digitar el PIN en el cajero electrónico para el retiro de los recursos no acepte la ayuda de terceros.  \nEl titular de La Cuenta se compromete a no guardar la clave en el teléfono móvil o celular asociado a La Cuenta; a activar la contraseña de acceso y el bloqueo automático del teléfono móvil o celular y a desactivar la conexión inalámbrica Bluetooth cuando no se este utilizando.  \nPara la atención de cualquier duda o inquietud sobre el manejo de La Cuenta, El Titular se podrá comunicar con el Banco enviando, desde su el teléfono móvil o celular y hacia el código 81088, un mensaje de texto SMS con la duda o inquietud; o llamando a la Sucursal Telefónica de Bancolombia.  \nPara radicar una queja o reclamo, el cliente deberá comunicarse con la Sucursal Telefónica Bancolombia.  \n En cualquier momento Bancolombia podrá modificar las condiciones establecidas en este contrato dando aviso del cambio conforme al mecanismo estipulado en el Reglamento de Cuenta de Ahorros Común aprobado por la Superintendencia Financiera de Colombia.  \nEl Titular de La Cuenta acepta los términos y condiciones que le sean aplicables del reglamento de Banca Móvil, el cual se puede consultar en  www.grupobancolombia.com.co  \nLa cuenta de ahorros de trámite simplificado se encuentra amparada por el seguro de depósitos del fondo de Garantía de Instituciones Financieras –FOGAFIN-, institución a la cual se encuentra inscrita El Banco. El seguro de depósito del FOGAFIN tiene por objeto garantizar las acreencias a cargo de las instituciones financieras inscritas en el fondo, que sean objeto de liquidación forzosa administrativa. El seguro de depósito ofrece una garantía a los ahorradores en la medida en que restituye de forma total o parcial el monto depositado, de acuerdo con la ley. El cuentahabiente es beneficiario del seguro de depósito por el simple hecho de realizar el proceso de apertura del producto. El valor máximo asegurado que reconocerá FOGAFIN por concepto del seguro de depósito será de $20.000.000.oo por depositante, en cada institución financiera inscrita, cualquiera sea el número de acreencias de las cuales sea titular. El seguro de depósito no cubre bonos obligatoriamente convertibles en acciones –boceas- ni bonos opcionalmente convertibles en acciones –bocas- emitidos por instituciones inscritas, tampoco cubre intereses corrientes causados después de la intervención para liquidar la institución.  \nEl Titular de La Cuenta podrá acceder a beneficios y/o incentivos determinados por El Banco y sujetos a los términos y condiciones establecidos previamente. Para mayor información consultar el link \"Ahorro a la Mano\" en  www.bancolombia.com.co El Reglamento de Cuenta de Ahorros Común, así como el contrato de Cuenta de Ahorro de Trámite Simplificado pueden ser consultados por el titular en la página Web  www.grupobancolombia.com o  www.grupobancolombia.com.co El Reglamento de Cuenta de Ahorros Común, así como el contrato de Cuenta de Ahorro de Trámite Simplificado pueden ser consultados por El Titular en la página Web www.grupobancolombia.com o www.grupobancolombia.com.co. Con la apertura y utilización de la Cuenta de Ahorro de Trámite Simplificado EL CLIENTE: \n Declara conocer y aceptar en su integridad los términos y condiciones establecidos en el Reglamento de Cuenta de Ahorros Común y en el presente contrato, por haber leído completamente los mismos. \n Autoriza expresamente al Banco en forma permanente para que:\n\nConsulte, comparta, reporte, actualice mis datos ante las entidades de consulta de bases de datos u Operadores de Información y Riesgo, o ante cualquier otra entidad que maneje o administre bases de datos con los fines legalmente definidos para este tipo de entidades. \nMe contacte a través del envío de mensajes a mi terminal móvil de  telecomunicaciones y/o a través de correo electrónico y/o redes sociales a las cuales esté inscrito.  \nComparta mi información con quienes, como proveedores o Aliados de El Banco requieran conocerla para el mantenimiento y operación de La Cuenta. Todos los datos entregados a Bancolombia son ciertos, y autoriza su verificación ante cualquier persona natural o jurídica, privada o pública, desde ahora y mientras subsista alguna relación comercial con cualquiera de las entidades que pertenezcan al Grupo Empresarial de Bancolombia. Todo lo anterior, hasta que expresamente revoque esta autorización a través de la sucursal telefónica o física.  \n\nTodos los datos entregados a Bancolombia son ciertos, y autoriza su verificación ante cualquier persona natural o jurídica, privada o pública, desde ahora y mientras subsista alguna relación comercial con cualquiera de las entidades que pertenezcan al Grupo Empresarial de Bancolombia. Los lineamientos establecidos por el Banco para la administración y tratamiento de los datos personales del Ahorrador pueden ser consultados en cualquier momento a través de nuestro link  \"Servicio al Cliente \"/ \"Protección de Datos \" publicado en  www.grupobancolombia.com \n",
+      "accept-label": "Aceptar términos y condiciones",
+      "accept-button-text": "ACEPTAR",
+      "reject-button-text": "RECHAZAR"
+    }
+  },
+  "change_completed": {
+    "close_session_icon": "QUIT",
+    "titleAcordeon": "Nuevo número",
+    "close_session_label": "Cerrar sesión",
+    "update_date": "15 Feb 2019 - 02:36 p.m.",
+    "button_home_icon": "HOME",
+    "button_home_label": "Volver a inicio",
+    "error_icon": "ERROR",
+    "error_message": "Ha ocurrido un error",
+    "success_icon": "OK",
+    "success_message": "Cambio exitoso",
+    "success_result": "030-028819-04",
+    "voucher_label": "Comprobante No.",
+    "success_card_text": "Nuevo número de Bancolombia A la mano",
+    "error_card_text": "Ha ocurrido un error. Inténtelo más tarde.",
+    "new_phone_number_label": "Nuevo número de celular",
+    "home_icon": "HOME",
+    "alert_modal": {
+      "svg": "idea",
+      "title": "Ten en cuenta",
+      "message": "Por seguridad, \n cerraremos tu sesión en Bancolombia A la mano\n y podrás volver a ingresar en un plazo máximo\n de 4 horas.",
+      "primary_label": "Entendido"
+    }
+  },
+  "otp_expiration_time": 7,
+  "otp_validation": {
+    "appBar": {
+      "title": "Código de seguridad",
+      "left": {
+        "label": "Volver",
+        "icon": "ARROW2_LEFT",
+        "enabled": true
+      },
+      "center": {
+        "label": ""
+      },
+      "right": {
+        "label": "Continuar",
+        "icon": "ARROW2_RIGHT",
+        "enabled": false
+      }
+    },
+    "showTitles": true,
+    "headerSubTitle": "CAMBIAR NÚMERO DE CUENTA",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Ingresa el código de seguridad que te enviamos por correo electrónico.",
+    "cardTitle": "Ingresa el código de seguridad",
+    "requestNewCodeLabel": "Solicitar nuevo código",
+    "countdownLabelWithoutTimer": "Puedes solicitar otro código en",
+    "inputCodeFieldErrorText": "",
+    "submitButtonText": "SIGUIENTE",
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado a tu correo electrónico"
+  },
+  "otp_phone_number_validation": {
+    "appBar": {
+      "title": "Código de seguridad",
+      "left": {
+        "label": "Volver",
+        "icon": "ARROW2_LEFT",
+        "enabled": true
+      },
+      "center": {
+        "label": ""
+      },
+      "right": {
+        "label": "Siguiente",
+        "icon": "ARROW2_RIGHT",
+        "enabled": false
+      }
+    },
+    "showTitles": true,
+    "headerSubTitle": "CAMBIAR NÚMERO DE CUENTA",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Ingresa el código de seguridad que enviamos al nuevo número de celular.",
+    "cardTitle": "Ingresa el código de seguridad",
+    "requestNewCodeLabel": "Solicitar nuevo código",
+    "countdownLabelWithoutTimer": "Puedes solicitar otro código en",
+    "inputCodeFieldErrorText": "",
+    "submitButtonText": "SIGUIENTE",
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado"
+  }
+}

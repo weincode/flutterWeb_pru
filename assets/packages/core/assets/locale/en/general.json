@@ -1,0 +1,21 @@
+{
+    "initDataSponsor": {
+        "alertType": "Info",
+        "title": "Datos gratuitos en nuestra app",
+        "message": "¡Te damos lo que necesitas! Ahora puedes usar la aplicación sin tener internet o plan de datos.",
+        "continueButtonTitle": "Continuar"
+    },
+    "restoreDataSponsor": {
+        "alertType": "Info",
+        "title": "Sigue disfrutando de datos gratuitos",
+        "message": "Los datos gratuitos en nuestra app se activarán nuevamente en pocos segundos.",
+        "continueButtonTitle": "Continuar"
+    },
+    "stopDataSponsor": {
+        "alertType": "Info",
+        "title": "Navegación sin datos gratuitos",
+        "message": "Los datos gratuitos de esta aplicación no cubren esta funcionalidad. Para continuar debes tener datos propios o una conexión a internet",
+        "continueButtonTitle": "Continuar",
+        "cancelButtonTitle": "Cancelar"
+    }
+}

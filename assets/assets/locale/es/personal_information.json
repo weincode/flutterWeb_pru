@@ -1,0 +1,17 @@
+{
+  "back_button_icon": "ARROW2_LEFT",
+  "back_button_label": "Volver",
+  "subtitle": "AJUSTES",
+  "title": "Perfil",
+  "body_header": "Datos de seguridad y verificación",
+  "email_label": "Correo",
+  "email_content": "****rreo@gmail.com",
+  "email_change_label": "Cambiar",
+  "email_change_icon": "ARROW2_RIGHT",
+  "phone_number_label": "Número de celular",
+  "phone_number_content": "*2321",
+  "phone_change_label": "Cambiar",
+  "phone_change_icon": "ARROW2_RIGHT",
+  "change_alert_text": "Ten en cuenta que si cambias el número de celular, cambiará el número asociado a Bancolombia A la mano",
+  "change_alert_icon": "IDEA"
+}

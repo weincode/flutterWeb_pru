@@ -1,0 +1,77 @@
+{
+  "payment_page": {
+    "header": {
+      "left": {
+        "icon": "ARROW2_LEFT",
+        "label": "Volver",
+        "enabled": true
+      },
+      "center": {
+        "icon": "",
+        "label": "Crédito A la mano",
+        "enabled": true
+      }
+    },
+    "title": "Crédito A la mano",
+    "subTitle": "MIS PRODUCTOS",
+    "credit": {
+      "type_label": "Tipo de crédito",
+      "number_label": "Número de crédito",
+      "number": "*5476",
+      "description": "deuda a la fecha",
+      "cop_value": "2000000.00",
+      "dollars_value": "576,00"
+    },
+
+    "body_label": "Datos del pago",
+    "payment_items": [
+      {
+        "description_label": "Pago mínimo en pesos",
+        "value": "380900",
+        "option_label": "Pagar",
+        "option_icon": "ARROW2_RIGHT",
+        "description_icon": ""
+      },
+      {
+        "descriptionLabel": "Pago mínimo alternativo",
+        "value": "290720",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": "INFO",
+        "tooltip_description": "mi primer tooltip"
+      },
+      {
+        "descriptionLabel": "Pago mínimo en dólares",
+        "value": "0",
+        "optionLabel": "",
+        "optionIcon": "",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Pago total en pesos",
+        "value": "0",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Pago total en dólares",
+        "value": "576",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Otro valor",
+        "value": "",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      }
+    ],
+    "bottom_card": {
+      "icon": "INFO",
+      "description": "Conoce más sobre el pago de la cuota de manejo"
+    }
+  }
+}

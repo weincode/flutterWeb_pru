@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "icon": "HOME",
+      "title": "Inicio",
+      "route": "/home"
+    },
+    {
+      "icon": "CARDS",
+      "title": "Mis productos",
+      "route": "/balance-products"
+    },
+    {
+      "icon": "CASH",
+      "title": "Mover dinero",
+      "route": "/send-money-menu-first-level"
+    },
+    {
+      "icon": "DOCUMENTS",
+      "title": "Facturas y recargas",
+      "route": "/bills_and_recharge"
+    },
+    {
+      "icon": "USER",
+      "title": "Ajustes",
+      "route": "/user_profile"
+    }
+  ]
+}

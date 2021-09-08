@@ -1,0 +1,20 @@
+{
+    "hasModulusGalatea": false,
+    "hasDataSponsor": false,
+    "hasFeatureFlag": false,
+    "connectionMessage": "Validando conexión, espera un momento",
+    "newVersion": {
+        "svg": "app-update",
+        "title": "Nueva versión disponible",
+        "message": "Actualiza la app y disfruta de una mejor experiencia.",
+        "continueButtonTitle": "ACTUALIZAR",
+        "cancelButtonTitle": "AHORA NO"
+    },
+    "mandatoryUpdate": {
+        "svg": "app-update",
+        "title": "Nueva versión disponible",
+        "message": "Descarga la nueva actualización de Bancolombia A la mano para continuar disfrutando de tu cuenta",
+        "continueButtonTitle": "actualizar",
+        "cancelButtonTitle": "cancelar"
+    }
+}

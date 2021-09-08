@@ -1,0 +1,114 @@
+{
+  "header": {
+    "left": {
+      "icon": "ARROW2_LEFT",
+      "label": "Volver",
+      "enabled": true
+    },
+    "title": "Bancolombia A la mano"
+  },
+  "title": "Bancolombia A la mano",
+  "subTitle": "MIS PRODUCTOS",
+  "account": {
+    "isAccountName": false,
+    "accountName": "Número de cuenta",
+    "name": "Número del producto",
+    "id": "012-345678-90",
+    "balanceLabel": "Saldo disponible",
+    "balance": "0"
+  },
+  "header_body_detail": {
+    "type_label": "",
+    "type_tooltip": "",
+    "type_tooltip_icon": "",
+    "number_label": "Número del producto",
+    "number": "012-345678-90",
+    "description": "Saldo disponible",
+    "cop_value": "0",
+    "dollars_value": "",
+    "visibility_currency": false
+  },
+  "tabs": [
+    {
+      "name": "Detalle",
+      "items": [
+        {
+          "label": "Saldo total",
+          "value": "Available",
+          "toolTip": "",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "Movimientos",
+      "itemsPerPage": 10,
+      "items": [
+        {
+          "date": "03 MAR 2020",
+          "description": "TRANSFERENCIA CTA SUC VIRTUAL",
+          "reference": "1222900003",
+          "value": "67789.00"
+        },
+        {
+          "date": "03 MAR 2020",
+          "description": "TRANSFERENCIA CTA SUC VIRTUAL",
+          "reference": "1222900003",
+          "value": "-67789.00"
+        }
+      ],
+      "filter": {
+        "isFiltersEnable": true,
+        "isSearchTextFilterEnable": true,
+        "cleanLabel": "Limpiar búsqueda",
+        "notFoundMessage": "No hay movimientos con los criterios de búsqueda ingresados.",
+        "overlay": {
+          "title": "Movimientos",
+          "inputs": [
+            {
+              "labelText": "Buscar por descripción",
+              "hintText": "Buscar",
+              "helpText": "Ejemplo: Transferencia, Pago, Retiro, Compra, etc."
+            },
+            {
+              "labelText": "Selecciona un rango de fecha",
+              "hintText": "Desde - Hasta"
+            }
+          ],
+          "cleanLabel": "Limpiar campos",
+          "buttons": [
+            {
+              "enabled": true,
+              "label": "BUSCAR",
+              "style": "Primary",
+              "icon": "SIGN_IN_ALT"
+            },
+            {
+              "enabled": true,
+              "label": "CERRAR",
+              "style": "Secondary",
+              "icon": "SIGN_IN_ALT"
+            }
+          ],
+          "datePickerRange": {
+            "buttonLabel": "aceptar",
+            "emptyDateLabel": "YYYY-MM-DD",
+            "endDateLabel": "Hasta",
+            "startDateLabel": "Desde",
+            "monthsToView": 3
+          }
+        }
+      }
+    }
+  ],
+  "shortcuts": [
+    {
+      "title": "Enviar dinero",
+      "icon": "CASH"
+    },
+    {
+      "title": "Retirar dinero",
+      "icon": "WITHDRAW_CASH"
+    }
+  ]
+}

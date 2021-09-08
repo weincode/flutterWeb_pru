@@ -1,0 +1,101 @@
+{
+  "configurations": {
+    "factorActive":"dynamicKey"
+  },
+  "twoFactorOtp":{
+    "minutes": 5,
+    "appBar": {
+      "title":"",
+      "left": {
+          "label": "Volver",
+          "enabled": true,
+          "icon": "ARROW2_LEFT"
+      },
+      "center": {
+          "label": ""
+      },
+      "right": {
+          "label": "Continuar",
+          "enabled": false,
+          "icon": "ARROW2_RIGHT"
+      },
+      "configurations":{
+        "minutesOptActive": 5
+      }
+    },
+    "header": {
+      "title": "Código de seguridad",
+      "subtitle": "INSCRÍBETE A CLAVE DINÁMICA" ,
+      "description": "Ingresa el código de seguridad que enviamos a tu Contacto de Confianza.",
+      "codeDescription": "El código es válido por: "
+    },
+    "cardOtp": {
+      "icon": "LOCK",
+      "avatar": "",
+      "label": "Ingresa el código de seguridad",
+      "digits": 6,
+      "errorText": "Ingresa el código de 6 digitos"
+    },
+    "buttonContinue": {
+      "label": "VALIDAR",
+      "style": "Primary",
+      "enabled": false,
+      "icon": " "
+    },
+    "messages": {
+      "genetareOtpSuccessText": "El código de seguridad fue enviado.",
+      "requestNewCodeText": "Recibir nuevo código de seguridad",
+      "loadingCodeText": "Recibir nuevo código de seguridad"
+    }
+  },
+  "twoFactorSoftoken":{
+    "appBar": {
+      "title":"",
+      "left": {
+          "label": "Volver ",
+          "enabled": true,
+          "icon": "ARROW2_LEFT"
+      },
+      "center": {
+          "label": ""
+      },
+      "right": {
+          "label": "Continuar",
+          "enabled": false,
+          "icon": "ARROW2_RIGHT"
+      }
+    },
+    "header": {
+      "title": "Firma con clave dinámica",
+      "subtitle": "DESEMBOLSO DE CRÉDITO" ,
+      "description": "Para realizar la firma electrónica de los documentos ingresa la siguiente clave."
+    },
+    "card": {
+      "icon": "LOCK",
+      "avatar": "",
+      "label": "Ingresa la Clave dinámica que ves arriba, y asi firmar electrónicamente.",
+      "digits": 6,
+      "errorText": "Ingresa el código de 6 digitos"
+    },
+    "buttonContinue": {
+      "label": "FIRMAR",
+      "style": "Primary",
+      "enabled": false,
+      "icon": " "
+    },
+    "buttonCancel": {
+      "label": "CANCELAR",
+      "style": "Primary",
+      "enabled": false,
+      "icon": " "
+    },
+    "messages": {
+      "genetareOtpSuccessText": "El código de seguridad fue enviado.",
+      "requestNewCodeText": "Recibir nuevo código de seguridad",
+      "loadingCodeText": "Recibir nuevo código de seguridad"
+    }
+  },
+  "validateTwoFactor":{
+    "validateText":"Validando clave dinámica"
+  }
+}

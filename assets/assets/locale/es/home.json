@@ -1,0 +1,108 @@
+{
+    "home": {
+        "logout_label": "Cerrar sesión",
+        "interestNewsVisible": false,
+        "accountStatusVisible" : true,
+        "appBar": {
+            "left": {
+                "label": "Ayuda ",
+                "enabled": true,
+                "icon": "HELP"
+            },
+            "center": {
+                "label": "HOME",
+                "enabled": true,
+                "icon": "HOME"
+            },
+            "right": {
+                "label": "Ingresar",
+                "enabled": false,
+                "icon": "LOGIN"
+            }
+        },
+        "showUserName": true,
+        "welcomeLabel": "Hola, {0}",
+        "logOutSubtitleEnable": false,
+        "account_info" : {
+            "fixTitle": null,
+            "fixSubtitle": null,
+            "accountDataTitle" : "AccountTypeNameAsOrigin",
+            "accountDataSubtitle" : "AccountNumber",
+            "accountDataBalance" : "Available"
+        },
+        "detailLabel" : "Ver detalle",
+        "dynamicKeyVisible": false,
+        "preapproved": {
+            "isVisible": true,
+            "buttonLabel": "Lo quiero",
+            "date": "",
+            "description": "Tienes un préstamo aprobado hasta por {0} que podrías disfrutar inmediatamente.",
+            "value": "",
+            "imageUrl": "credito-preaprobado-online"
+        },
+        "shortcuts": {
+            "title": "¿Qué quieres hacer hoy?",
+            "items": [
+                {
+                    "icon":"SEE_BALANCE",
+                    "title": "Ver saldos y movimientos",
+                    "route": "/balance-products"
+                },
+                {
+                    "icon":"WITHDRAW_CASH",
+                    "title": "Retirar dinero",
+                    "route": "MoneyWithdrawal"
+                },
+                {
+                    "icon":"SEND_MONEY_2",
+                    "title": "Enviar dinero",
+                    "route": "/send-money-transaction"
+                },
+                {
+                    "icon":"RECEIPT",
+                    "title": "Pagar y administrar facturas",
+                    "route": "MenuInvoicesPayment"
+                }
+                
+            ]
+        },
+        "bottomLinkVisible" : true,
+        "bottomLink": {
+            "linkType" : "Action",
+            "linkLabel" : "¿No estás registrado?",
+            "linkUrl" : ""
+        },
+        "itemsOverlay": [
+            {
+                "title": "Enviar dinero"
+            },
+            {
+                "title": "Retirar dinero"
+            },
+            {
+                "title": "Pagar facturas"
+            },
+            {
+                "title": "Ver detalle y movimientos"
+            }
+        ],
+        "qrVisible": true,
+        "qrItems": [
+            {
+                "icon": "QR_SCAN",
+                "title": "Leer código QR",
+                "route": "/qr_reading_main_menu"
+            },
+            {
+                "icon": "QR_ADD",
+                "title": "Generar código QR",
+                "route": "GenerateQR"
+            }
+        ],
+        "balance_load_error" : {
+            "errorTitle" : "Algo salió mal",
+            "errorMessage" : "Ocurrió un error al momento de cargar la información. Inténtalo nuevamente.",
+            "errorLinkText" : "Reintentar"
+        }
+    }
+}

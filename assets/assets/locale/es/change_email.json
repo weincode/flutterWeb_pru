@@ -1,0 +1,136 @@
+{
+  "dynamicKeyVisible": false,
+  "generate_security_code":"Generando código de seguridad",
+  "validate_security_code": "Validando código de seguridad",
+  "otp_validation": {
+    "appBar": {
+      "title": "Código de seguridad",
+      "left": {
+        "label": "Volver",
+        "icon": "ARROW2_LEFT",
+        "enabled": true
+      },
+      "center": {
+        "label": ""
+      },
+      "right": {
+        "label": "Siguiente",
+        "icon": "ARROW2_RIGHT",
+        "enabled": false
+      }
+    },
+    "expiration_time": 5,
+    "showTitles": true,
+    "headerSubTitle": "CAMBIAR CORREO ELECTRÓNICO",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Ingresa el código de seguridad que enviamos a tu celular. El código tiene una duración de 5 minutos.",
+    "cardTitle": "Ingresa el código de seguridad",
+    "requestNewCodeLabel": "Solicitar nuevo código",
+    "countdownLabelWithoutTimer": "Puedes solicitar otro código en",
+    "inputCodeFieldErrorText": "",
+    "submitButtonText": "SIGUIENTE",
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+    "generating_security_code_message": "Generando código de seguridad",
+    "validating_security_code_message": "Validando código de seguridad"
+  },
+  "change_email_form": {
+    "back_button_text": "Cancelar",
+    "back_button_icon": "ERROR",
+    "next_button_label": "Siguiente",
+    "next_button_icon": "ARROW2_RIGHT",
+    "subtitle": "CAMBIAR CORREO ELECTRÓNICO",
+    "title": "Correo electrónico",
+    "information_text": "Ingresa los datos para cambiar tu correo electrónico",
+    "email_input_label": "Correo electrónico",
+    "email_input_icon": "MAIL",
+    "email_verification_label": "Confirmar correo electrónico",
+    "invalid_email": "El correo electrónico no es válido",
+    "invalid_email_verification": "Los correos electrónicos no coinciden",
+    "email_type_label": "Selecciona el tipo de correo",
+    "email_type_personal_label": "Personal",
+    "email_type_work_label": "Laboral",
+    "authorization_label": "Autorizo a Bancolombia para que el número de mi celular y correo electrónico, sean tratados para contactarme y/o enviarme la información relacionada con la apertura de la cuenta. Igualmente para que me consulten ante Operadores de Información y Riesgo con el fin de verificar mi información personal."
+  },
+  "cancel_update": {
+    "alert_type": "",
+    "alert_text": "¿Quieres cancelar la actualización?",
+    "confirm_button": "Si",
+    "cancel_button": "No"
+  },
+  "verification_page": {
+    "cancelModal": {
+      "description": "¿Quieres cancelar el cambio de correo?",
+      "btnPrimaryLabel": "SÍ",
+      "btnSecondaryLabel": "NO"
+    },
+    "update_email_message": "Actualizando correo electrónico",
+    "back_button_text": "Volver",
+    "back_button_icon": "ARROW2_LEFT",
+    "next_button_label": "Cambiar",
+    "next_button_icon": "ARROW2_RIGHT",
+    "subtitle": "CAMBIAR CORREO ELECTRÓNICO",
+    "title": "Verificar el cambio",
+    "email_label": "Correo electrónico",
+    "email_content": "pergroperez@correo.com",
+    "email_change_label": "Cambiar",
+    "email_change_icon": "ARROW2_RIGHT",
+    "email_type_label": "Tipo de correo",
+    "email_type_content": "Personal",
+    "email_type_change_label": "Cambiar",
+    "email_type_change_icon": "ARROW2_RIGHT",
+    "cancel_button_text": "CANCELAR",
+    "confirm_button_text": "CAMBIAR",
+    "updating_email_message": "Actualizando correo electrónico"
+  },
+  "change_completed": {
+    "card_label": "Correo electrónico",
+    "email_card_label": "Correo electrónico",
+    "email_type_label": "Tipo de correo",
+    "close_session_icon": "ARROW_ANGLE_DOUBLE_LEFT",
+    "close_session_label": "Cerrar sesión",
+    "button_home_icon": "HOME",
+    "button_home_label": "Volver a inicio",
+    "error_icon": "ERROR",
+    "error_message": "Ha ocurrido un error",
+    "success_icon": "OK",
+    "success_message": "Cambio exitoso",
+    "voucher_label": "Comprobante No.",
+    "success_card_text": "Nuevo número de Bancolombia A la mano",
+    "error_card_text": "Ha ocurrido un error. Inténtelo más tarde."
+  },
+  "user_profile": {
+    "profile_image": "https://i.ibb.co/1mw6mCz/profile-generic.png",
+    "last_login_label": "Último ingreso: ",
+    "last_connection_ip_address_label": "IP: ",
+    "title": "Ajustes",
+    "show_footer_button": true,
+    "show_footer_items": true,
+    "footer_button_label": "CERRAR SESIÓN",
+    "show_bottom_menu_items": true,
+    "sign_out_button_text": "CERRAR SESIÓN",
+    "sign_in_button_text": "INGRESAR",
+    "menu_items": [
+      {
+        "id": "personal_information",
+        "label": "Perfil",
+        "sub_label": "Datos personales y de verificación",
+        "sufix_icon": "ARROW2_RIGHT",
+        "prefix_icon": "USER"
+      },
+      {
+        "id": "security",
+        "label": "Seguridad",
+        "sub_label": "Cuida los recursos",
+        "sufix_icon": "ARROW2_RIGHT",
+        "prefix_icon": "SECURITY"
+      },
+      {
+        "id": "documents",
+        "label": "Documentos legales",
+        "sub_label": null,
+        "sufix_icon": "ARROW2_RIGHT",
+        "prefix_icon": "DOCUMENTS"
+      }
+    ]
+  }
+}

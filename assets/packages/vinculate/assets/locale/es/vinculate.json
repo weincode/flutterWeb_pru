@@ -1,0 +1,362 @@
+{
+  "paginator": {
+    "paginator-titles": [
+      {
+        "title": "Datos Personales",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Datos del contacto",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Código de seguridad",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Crear clave",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Confirma tu clave",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Segundo código de seguridad",
+        "subtitle": "CREAR CUENTA"
+      },
+      {
+        "title": "Clave del cajero",
+        "subtitle": "CREAR CUENTA"
+      }
+    ],
+    "paginator-pages": [
+      {
+        "page-name": "personal-data",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "maxLengthDocument": "15",
+        "body": {
+          "CardInputs": [
+            {
+              "input": {
+                "label": "Fecha de nacimiento",
+                "iconleft": "CALENDAR",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Tipo de documento",
+                "iconleft": "ID",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Número de documento",
+                "iconleft": "ID",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Fecha de expedición de documento",
+                "iconleft": "CALENDAR",
+                "iconRight": ""
+              }
+            }
+          ]
+        },
+        "overlay": {
+          "TextOverlay": [
+            {
+              "label": "Fecha de nacimiento"
+            },
+            {
+              "label": "Fecha de expedición"
+            }
+          ]
+        }
+      },
+      {
+        "page-name": "contact-info",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "maxLengthPhone": "10",
+        "body": {
+          "CardInputs": [
+            {
+              "input": {
+                "label": "Número de celular",
+                "iconleft": "SMARTPHONE",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Confirmar número de celular",
+                "iconleft": "SMARTPHONE",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Correo electrónico",
+                "iconleft": "MAIL",
+                "iconRight": ""
+              }
+            },
+            {
+              "input": {
+                "label": "Confirmar correo electrónico",
+                "iconleft": "MAIL",
+                "iconRight": ""
+              }
+            }
+          ],
+          "CardChk": [
+            {
+              "CheckBox": {
+                "text": "Autorizo a Bancolombia para que el número de mi celular y correo electrónico, sean tratados para contactarme y/o envíarme la información relacionada con la apertura de la cuenta. Igualmente para que me consulten ante Operadores de Información y Riesgo con el fin de verificar mi información personal.",
+                "lnk": ""
+              }
+            },
+            {
+              "CheckBox": {
+                "text": "Acepto",
+                "lnk": "términos y condiciones"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "page-name": "segurity-copy",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "info": {
+            "title": "Enviamos un código a través de un mensaje a tu celular.",
+            "centerTitle": "Puedes solicitar otro código en",
+            "titleSuccess": ""
+          },
+          "code": {
+            "content": "Ingresa el código de seguridad",
+            "icon": "SECURITY",
+            "Amount": "6"
+          }
+        }
+      },
+      {
+        "page-name": "create-account",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "infoCode": {
+            "titleAuthentication": "Por tu seguridad te recomendamos no usar números consecutivos, fecha de cumpleaños, número de cédula ni número de celular."
+          },
+          "code": {
+            "errorText": "Ingresa los 4 dígitos de la contraseña",
+            "content": "Ingresa la clave",
+            "icon": "LOCK",
+            "Amount": "4"
+          }
+        }
+      },
+      {
+        "page-name": "confirm-password",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "code": {
+          "errorText": "Ingresa los 4 dígitos de la contraseña",
+          "content": "Ingresa la clave nuevamente",
+          "icon": "LOCK",
+          "Amount": "4"
+        }
+      },
+      {
+        "page-name": "cashier-password",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "infoCode": {
+            "titleAuthentication": "Ingresa la clave con la cual realizas tus transacciones en el cajero"
+          },
+          "code": {
+            "errorText": "Ingresa los 4 dígitos de la contraseña",
+            "content": "Ingresa la clave",
+            "icon": "LOCK",
+            "Amount": "4"
+          }
+        }
+      }
+    ]
+  },
+  "onboarding": {
+    "body": {
+      "onboardingItem": [
+        {
+          "itemOnboarding": {
+            "description": "Una cuenta digital sin cuota de manejo. Envia y recibe dinero, paga con códigos QR, paga facturas y disfruta de muchos beneficios más.",
+            "title": "Bienvenido a Bancolombia A la mano",
+            "image": "aceptar_terminos"
+          }
+        },
+        {
+          "itemOnboarding": {
+            "description": "Usa los cajeros Bancolombia y Corresponsales Bancarios Bancolombia para realizar retiros de tu cuenta.",
+            "title": "Retira dinero con facilidad",
+            "image": "invitacion_clave_dinamica_softoken"
+          }
+        },
+        {
+          "itemOnboarding": {
+            "description": "Por ley en esta cuenta puedes manejar al mes hasta $6.934.643 en retiros, transferencias y pagos.",
+            "title": "Topes de tu cuenta",
+            "image": "app_proceso_2"
+          }
+        }
+      ]
+    }
+  },
+  "successful": {
+    "body": {
+      "iconProcess": "HAND",
+      "iconSuccess": "OK",
+      "imageProcess": "ilustracion_app_2",
+      "imageSuccess": "ilustracion_app_2",
+      "titleProcess": "Registro en proceso",
+      "titleSuccess": "Registro exitoso",
+      "cardProcess": "En minutos recibirás un mensaje de texto informándote si la cuenta de Bancolombia A la mano se creó con éxito.",
+      "cardSuccess": "",
+      "buttonProcessText": "INGRESAR",
+      "buttonSuccessText": "INGRESAR"
+    }
+  },
+  "terms": {
+    "title": "Términos y condiciones",
+    "subTitle": "CREAR CUENTA",
+    "description": "Contrato de cuenta de ahorros de trámite \nsimplificado de Ahorro A La Mano",
+    "info": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.\n \n  Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl. Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est."
+  },
+  "otp-page-S": {
+    "showTitles": false,
+    "headerSubTitle": "INSCRIBETE A CLAVE DINÁMICA",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Ingresa el código de seguridad que te enviamos a tu celular.",
+    "countdownLabelWithoutTimer": "Puedes usar el código en",
+    "cardTitle": "Ingresa el código de seguridad",
+    "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+    "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+    "submitButtonText": "Siguiente",
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado"
+  },
+  "otp-page-N": {
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+    "headerSubTitle": "INSCRIBETE A CLAVE DINÁMICA",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Ingresa el código que enviamos al celular o al correo electrónico donde recibes las alertas y notificaciones de los movimientos del banco.",
+    "countdownLabelWithoutTimer": "Puedes usar el código en",
+    "cardTitle": "Ingresa el código de seguridad",
+    "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+    "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+    "submitButtonText": "Siguiente",
+    "showTitles": false
+  },
+  "otp-second-page": {
+    "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+    "headerSubTitle": "CREAR",
+    "headerTitle": "Código de seguridad",
+    "bodyText": "Enviamos un código a través de un mensaje a tu celular o al correo electrónico donde recibes las alertas y notificaciones de los movimientos del banco.",
+    "countdownLabelWithoutTimer": "Puedes usar el código en",
+    "cardTitle": "Ingresa el código de seguridad",
+    "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+    "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+    "submitButtonText": "Siguiente",
+    "showTitles": false
+  },
+  "hasAlmAccount": {
+    "icon": "idea",
+    "title": "Ya tienes una cuenta de Bancolombia A la mano",
+    "info": "Ingresa con tu número de documento y clave para seguir disfrutando de los beneficios que Bancolombia tiene para ti.",
+    "textButton": "ACEPTAR"
+  },
+  "hasNequi": {
+    "icon": "mano_5",
+    "primaryButtonText": "BANCOLOMBIA",
+    "secondaryButtonText": "NEQUI",
+    "labelNotifyBtn": "Aceptar",
+    "title": "Identificamos que tienes Nequi",
+    "info": "Puedes elegir con cual cuenta quieres continuar. Por ley solo puedes tener una.\n \n Con Bancolombia A la mano podrás enviar y retirar dinero sin tarjeta, pagar facturas y acceder a préstamos y seguros tan solo con ahorrar en tu cuenta.",
+    "textAlertBanck": "Esperamos poder acompañarte más adelante. Con Bancolombia A la mano hacemos tu vida más simple y te ayudamos a cumplir tus sueños.",
+    "textAlertNequi": "Para cancelar Nequi ingresa a Nequi > Perfil > Cierra tu cuenta. Tu saldo debe estar en cero. Luego crea tu cuenta por la App Bancolombia A la mano."
+  },
+  "captcha": {
+    "isRecurrent": false,
+    "hasCaptchaValidation": true,
+    "urlCaptcha": "https://galatea-qa.apps.ambientesbc.com/1.0.5/captcha/balm-captcha-google-v3.html",
+    "sourceCaptcha": "Google",
+    "versionCaptcha": "v3"
+  }
+}

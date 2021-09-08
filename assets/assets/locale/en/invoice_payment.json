@@ -1,0 +1,360 @@
+{
+  "menu": {
+    "header": {
+      "title": "Pagar y administrar facturas",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      }
+    },
+    "title": "Pagar y administrar facturas",
+    "subtitle": "FACTURAS Y RECARGAS",
+    "items": [
+      {
+        "leadingIcon": "PLUS",
+        "label": "Pagar nueva factura",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true,
+        "route": "NewInvoicePayment"
+      },
+      {
+        "leadingIcon": "CALENDAR",
+        "label": "Pagos anteriores",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true,
+        "route": "PreviousInvoicePayment"
+      }
+    ],
+    "alert-text": "Cuando pagues una nueva factura, esta quedará inscrita en la app para que puedas pagar más fácil la próxima vez."
+  },
+  "new-payment": {
+    "cancel_modal": {
+      "description": "¿Quieres cancelar el pago de factura?",
+      "btnPrimaryLabel": "SÍ",
+      "btnSecondaryLabel": "NO"
+    },
+    "label_button": "Continuar",
+    "paginator_pages": [
+      {
+        "page_name": "company-or-service",
+        "header": {
+          "title": "Pagar nueva factura",
+          "left": {
+            "label": "Cancelar",
+            "enabled": true,
+            "icon": "ERROR"
+          },
+          "right": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "title": "Empresa o Servicio",
+        "subtitle": "PAGAR NUEVA FACTURA",
+        "body": {
+          "helpText": "Debe contener mínimo 3 caracteres",
+          "labelText": "Ingresa una empresa o servicio",
+          "prefixIcon": "SEARCH"
+        }
+      },
+      {
+        "page_name": "description",
+        "header": {
+          "title": "Pagar nueva factura",
+          "left": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "right": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "title": "Descripción",
+        "subtitle": "PAGAR NUEVA FACTURA",
+        "body": {
+          "inputs": {
+            "labelText": "Ingresa la descripción",
+            "prefixIcon": "COMMENT"
+          }
+        }
+      },
+      {
+        "page_name": "references",
+        "header": {
+          "title": "Pagar nueva factura",
+          "left": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "right": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "title": "Referencia",
+        "subtitle": "PAGAR NUEVA FACTURA",
+        "body": {
+          "labelButton": "Validar Referencia",
+          "errorsMessages": {
+            "empty": "El campo no puede ser vacío"
+          },
+          "prefixIcon": "COMMENT",
+          "loading_message": "Cargando factura..."
+        }
+      },
+      {
+        "page_name": "value-to-pay",
+        "header": {
+          "left": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "right": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "title": "Monto a pagar",
+        "subtitle": "PAGAR NUEVA FACTURA",
+        "body": {
+          "input": {
+            "labelText": "Ingresa el valor a enviar",
+            "errorText": "Valor no válido",
+            "iconLeft": "CURRENCY_PESO"
+          }
+        }
+      }
+    ]
+  },
+  "find_agreement": {
+    "header": {
+      "title": "Pagar y administrar facturas",
+      "left": {
+        "label": "Cerrar",
+        "enabled": true,
+        "icon": "ERROR"
+      }
+    },
+    "body": {
+      "help_text": "Debe contener mínimo 3 caracteres",
+      "label_text": "Ingresa una empresa o servicio",
+      "loading_message": "Cargando convenios...",
+      "pictogram_error": "search",
+      "title_error": "No se encontraron resultados",
+      "message_error": "No se han encontrado resultados para tu búsqueda"
+    }
+  },
+  "previous-payments": {
+    "appBar": {
+      "title": "Pagos anteriores",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      }
+    },
+    "title": "Pagos anteriores",
+    "subtitle": "PAGAR Y ADMINISTRAR FACTURAS",
+    "loadingMessage": "Cargando facturas...",
+    "amountToPayLabel": "Valor a pagar",
+    "expirationDateLabel": "Vence",
+    "detailButton": "Ver detalle",
+    "payButton": "Pagar",
+    "noAvailableLabel": "No disponible",
+    "deleteMessage": "Seguro desea eliminar la factura?",
+    "deleteButton": "Eliminar",
+    "cancelButton": "Cancelar",
+    "deletingMessage": "Eliminando factura...",
+    "successfulDelete": {
+      "alertType": "Info",
+      "message": "¡Eliminación Exitosa!",
+      "labelButton": "Aceptar"
+    },
+    "errorDelete": {
+      "alertType": "Error",
+      "message": "No pudimos elminar este pago. Intente de nuevo",
+      "labelButton": "Reintentar"
+    }
+  },
+  "invoice-detail": {
+    "appBar": {
+      "title": "Pagos anteriores",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      }
+    },
+    "title": "Detalle de la factura",
+    "subtitle": "PAGAR Y ADMINISTRAR FACTURAS",
+    "checkMessage": "Cargando datos...",
+    "deletingMessage": "Eliminando factura...",
+    "deleteMessage": "Seguro desea eliminar la factura?",
+    "deleteButton": "Eliminar",
+    "cancelButton": "Cancelar",
+    "successfulDelete": {
+      "alertType": "Info",
+      "message": "¡Eliminación Exitosa!",
+      "labelButton": "Aceptar"
+    },
+    "errorDelete": {
+      "alertType": "Error",
+      "message": "No pudimos elminar este pago. Intente de nuevo",
+      "labelButton": "Reintentar"
+    },
+    "body": {
+      "labelChange": "Cambiar",
+      "description": "Descripción",
+      "companyService": "Empresa o servicio",
+      "dueDate": "Fecha de vencimiento",
+      "noAvailableLabel": "No disponible",
+      "status": "Estado",
+      "labelInvoiceValue": "Valor a pagar",
+      "inscriptionChannel": "Canal de inscripción"
+    },
+    "shortcuts": [
+      {
+        "icon": "REMOVE",
+        "title": "Eliminar",
+        "route": "delete"
+      },
+      {
+        "icon": "CASH_PAYMENT",
+        "title": "Pagar",
+        "route": "payment"
+      }
+    ]
+  },
+  "verification-page": {
+    "appBar": {
+      "title": "Pagar y administrar facturas",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "right": {
+        "label": "Pagar",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Verifica el pago",
+    "subtitle": "PAGAR FACTURA",
+    "loadingMessage": "Revisando factura...",
+    "body": {
+      "invoiceCard": {
+        "labelChange": "Cambiar",
+        "title": "Datos de factura",
+        "valueToPay": "Valor a pagar",
+        "refillCost": "Costo del pago",
+        "description": "Descripción",
+        "agreement": "Empresa o Servicio",
+        "titleOriginProduct": "Producto Origen"
+      },
+      "originCardTitle": "Producto origen"
+    },
+    "continueButtonText": "PAGAR",
+    "cancelButtonText": "CANCELAR",
+    "cancelModal": {
+      "text": "¿Quieres cancelar el pago de factura?",
+      "cancel": "NO",
+      "confirm": "SÍ"
+    },
+    "overlay": {
+      "valueToPay": {
+        "label": "Valor a pagar",
+        "helpText": "Mínimo {0} - Máximo {1}",
+        "messageUpdated": "El valor fue actualizado.",
+        "value": "Valor",
+        "accept": "ACEPTAR"
+      }
+    }
+  },
+  "otp-page": {
+    "appBar": {
+      "title": "Pagar factura",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "right": {
+        "enabled": false,
+        "label": "Siguiente",
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "expirationMinutes": 5,
+    "requestOtpMessage": "Cargando...",
+    "requestRechargeMessage": "Cargando...",
+    "otp-page": {
+      "headerSubTitle": "PAGAR FACTURA",
+      "headerTitle": "Código de seguridad",
+      "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+      "bodyText": "Ingresa el código de seguridad que enviamos a tu celular. El código tiene una duración de {0} minutos.",
+      "countdownLabelWithoutTimer": "Puedes usar el código en",
+      "cardTitle": "Ingresa el código de seguridad",
+      "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+      "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+      "submitButtonText": "Siguiente",
+      "showTitles": true
+    }
+  },
+  "result-page": {
+    "appBar": {
+      "title": "¡Pago exitoso!",
+      "right": {
+        "icon": "QUIT",
+        "label": "Cerrar Sesión",
+        "enabled": true
+      }
+    },
+    "body": {
+      "success": {
+        "title": "¡Pago exitoso!",
+        "description": ""
+      },
+      "reject": {
+        "title": "Pago rechazado",
+        "description": "La transferencia no pudo realizarse con éxito. Inténtalo más tarde."
+      },
+      "pending": {
+        "title": "¡Inscripción pendiente!",
+        "description": "La inscripción quedará activa cuando se finalice el proceso de verificación."
+      },
+      "voucherNumber": "Comprobante No. ",
+      "invoiceCard": {
+        "title": "Datos de la factura",
+        "valueToPay": "Valor pagado",
+        "description": "Descripción",
+        "refillCost": "Costo del pago",
+        "titleOriginProduct": "Producto Origen"
+      },
+      "originCard": {
+        "title": "Producto origen"
+      }
+    },
+    "shortcuts": [
+      {
+        "icon": "SHARE",
+        "title": "Compartir",
+        "route": "share"
+      },
+      {
+        "icon": "RECEIPT",
+        "title": "Pagar otra factura",
+        "route": "NewInvoicePayment"
+      }
+    ]
+  }
+}

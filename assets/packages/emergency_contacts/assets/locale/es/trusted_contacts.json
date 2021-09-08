@@ -1,0 +1,126 @@
+{
+    "maxContactsValue" : 2,
+    "minContactsValue" : 1,
+    "createContactsBody": {
+        "bodyText": "Registra un familiar o amigo como Contacto de Emergencia para que reciba el código de seguridad que te ayudará a realizar transacciones cuando no tengas tu celular.\r\n\r\nAl registrarlo declaras estar autorizado para compartir sus datos.\r\n\r\nPodrás editar tus contactos más adelante en la sucursal virtual web en:",
+        "menuDescription": "Mi Empresa » Ajustes » Contactos de Confianza",
+        "contactItemCard": {
+            "label": "Cambiar",
+            "icon" : "ARROW2_RIGHT"
+        },
+        "addItem": {
+            "mandatoryOrOptionalLabelVisible" : true,
+            "title": "Agregar contacto %s",
+            "optionalLabel": "(Opcional)",
+            "mandatoryLabel": "(Obligatorio)"
+        }
+    },
+    "listBasicContactsInfoScreen" : {
+        "appBar" : {
+            "title" : "",
+            "leftItem" : {
+                "label" : "Volver",
+                "enabled" : true,
+                "icon" : "ARROW2_LEFT"
+            },
+            "rightItem" : {
+                "label" : "",
+                "enabled" : false,
+                "icon" : ""
+            }
+        },
+        "bodyText" : "Selecciona el contacto al que enviaremos el código de seguridad.",
+        "editContactsLinkText" : "Editar mis Contactos de Confianza",
+        "primaryButtonText" : "CONTINUAR",
+        "title" : "Código de seguridad",
+        "isEditContactsEnable" : true,
+        "showAlertInLine" : false,
+        "alertInLineMessage" : "Comunicate con el contacto de confianza, este tiene un tiempo limite para ingresar el código de seguridad.",
+        "reloadContactsText" : "Refrescar los Contactos de Confianza",
+        "initialModalAlert": {
+            "primaryButtonText" : "CONTINUAR",
+            "title" : "Este dispositivo no está registrado a Clave Dinámica",
+            "message" : "Para finalizar esta transacción comprobaremos tu identidad usando tus Contactos de Confianza."
+        }
+    },
+    "contactsManagerPage" : {
+        "appBar" : {
+            "title" : "",
+            "leftItem" : {
+                "label" : "Volver",
+                "enabled" : true,
+                "icon" : "ARROW2_LEFT"
+            },
+            "rightItem" : {
+                "label" : "",
+                "enabled" : false,
+                "icon" : ""
+            }
+        },
+        "bodyText" : "Registra hasta dos personas cercanas para que te ayuden cuando necesites realizar una transacción y no tengas a mano el celular donde tienes registrada la Clave Dinámica.",
+        "title" : "Contactos de Confianza",
+        "subtitle" : "AJUSTES",
+        "showAlertInLine" : false,
+        "alertInLineMessage" : "Puedes tener máximo 2 Contactos de Confianza. Si quieres agregar otro contacto, debes eliminar uno de los existentes.",
+        "addContactMenuIcon" : "ADD_USER",
+        "addContactMenuLabel" : "Agregar contacto",
+        "contactInfoCardsLabel" : "Contacto %index"      
+    },
+    "CreateEditContact" : {
+        "cancelButtonLabel" : "CERRAR",
+        "createTitle" : "Agregar Contacto de Confianza",
+        "editTitle" : "Editar Contacto de Confianza",
+        "nameLabel" : "Nombre personalizado",
+        "phoneLabel" :"Número celular",
+        "createButtonLabel" : "AGREGAR",
+        "editButtonLabel" : "CAMBIAR",
+        "confirmPhoneErrorLabel" : "Los números ingresados no coinciden",
+        "confirmPhoneLabel" : "Confirmar número de celular",
+        "contactsTermsLabel" : "Declaro que cuento con la autorización para entregarle a Bancolombia los datos de contacto aquí relacionados, con la finalidad de usarlos como Contactos de Confianza."
+    },
+    "successOperationAlert" : {
+        "message" : "El contacto ha sido %operation exitosamente.",
+        "title" : "Contacto %operation",
+        "createOperation" : "agregado",
+        "editOperation" : "modificado",
+        "deleteOperation" : "eliminado"
+    },
+    "contactsManagerDetailPage" : {
+        "appBar" : {
+            "title" : "",
+            "leftItem" : {
+                "label" : "Volver",
+                "enabled" : true,
+                "icon" : "ARROW2_LEFT"
+            },
+            "rightItem" : {
+                "label" : "",
+                "enabled" : false,
+                "icon" : ""
+            }
+        },
+        "bodyText" : "Por seguridad, no te podemos mostrar los datos agregados anteriormente. Al editar el contacto, podras reemplazar todos los datos.",
+        "title" : "Contacto de confianza %index",
+        "subtitle" : "DETALLE DEL CONTACTO",
+        "nameCardLabel" : "Nombre personalizado",
+        "cellphoneCardLabel" : "Número de celular",
+        "emailCardLabel" : "Correo electrónico",
+        "editContactMenuIcon" : "EDIT",
+        "editContactMenuLabel" : "Editar contacto",
+        "deleteContactMenuIcon" : "BASKET",
+        "deleteContactMenuLabel" : "Eliminar contacto",
+        "deleteAlert" : {
+          "primaryBtnLabel"  : "ELIMINAR",
+          "secondaryBtnLabel" : "CANCELAR",
+          "message" : "¿Estas seguro que deseas eliminar el contacto de confianza %name?",
+          "title" : "Eliminar contacto de confianza"
+        }
+    },
+    "ContactsManagerOrquestatorPage" : {
+        "errorPageTitle" : "Algo salió mal",
+        "errorPagePrimaryButtonLabel" : "VOLVER A INTENTAR",
+        "errorPageSecondaryButtonLabel" : "SALIR",
+        "errorPagePrefixErrorCode" : "Código",
+        "loadingLabel" : "Validando clave dinámica"
+    }
+}

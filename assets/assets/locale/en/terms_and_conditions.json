@@ -1,0 +1,22 @@
+{
+  "terms-and-conditions-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "icon": "ARROW2_LEFT",
+        "enabled": true
+      },
+      "rightItem": {
+        "label": "Aceptar",
+        "icon": "ARROW2_RIGHT",
+        "enabled": true
+      }
+    },
+    "subtitle": "",
+    "title": "Términos y condiciones",
+    "content": "Lorem ipsum",
+    "accept-label": "Aceptar términos y condiciones",
+    "accept-button-text": "ACEPTAR",
+    "reject-button-text": "RECHAZAR"
+  }
+}

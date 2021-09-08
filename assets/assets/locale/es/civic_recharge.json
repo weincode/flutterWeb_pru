@@ -1,0 +1,266 @@
+{
+  "screenOnboarding": {
+    "appBar": {
+      "title": "Recargar",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Ten en cuenta",
+    "description": "Al recargar tu Cívica debes pasar la tarjeta por la máquina lectora de saldo de las estaciones del metro y así tu plata quedará cargada.",
+    "buttonNext": "SIGUIENTE",
+    "buttonCancel": "CANCELAR"
+  },
+  "paginator": {
+    "labelbutton": "SIGUIENTE",
+    "paginator-titles": [
+      {
+        "title": "Documento de identidad",
+        "subtitle": "RECARGAR CÍVICA"
+      },
+      {
+        "title": "Valor a recargar",
+        "subtitle": "RECARGAR CÍVICA"
+      }
+    ],
+    "paginator-pages": [
+      {
+        "page-name": "enter-document",
+        "header": {
+          "title": "Recargar",
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "documentTypeIcon": "ID",
+          "documentType": "Tipo de documento",
+          "documentNumberIcon": "ID_NUMBER",
+          "documentNumber": "Número de documento",
+          "notCivic": "No encontramos una tarjeta Cívica asociada a este documento.",
+          "loadingData": "Validando saldo...",
+          "documents": [
+            {
+              "label": "Cédula de Ciudadanía",
+              "value": "1",
+              "type": "CC"
+            },
+            {
+              "label": "Tarjeta de identidad",
+              "value": "2",
+              "type": "TI"
+            },
+            {
+              "label": "Cédula de Extranjería",
+              "value": "3",
+              "type": "CE"
+            },
+            {
+              "label": "Registro civil",
+              "value": "4",
+              "type": "RC"
+            },
+            {
+              "label": "Número único de identificación",
+              "value": "6",
+              "type": "NI"
+            },
+            {
+              "label": "Cívica al portador",
+              "value": "7",
+              "type": "CP"
+            }
+          ]
+        }
+      },
+      {
+        "page-name": "enter-value",
+        "header": {
+          "title": "Recargar",
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "input": {
+            "labelText": "Ingresa el valor",
+            "helpText": "Mínimo {0} - Máximo {1}",
+            "iconLeft": "CURRENCY_PESO",
+            "messageAlert": "El monto debe ser mayor a {0} y menor a {1}"
+          },
+          "showProduct": {
+            "productNumber": "Número de producto",
+            "availableBalance": "Saldo disponible"
+          }
+        }
+      }
+    ]
+  },
+  "screenConfirmation": {
+    "header": {
+      "title": "Recargar",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Recargar",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Verifica la recarga",
+    "subtitle": "RECARGAR CÍVICA",
+    "body": {
+      "footerButtonNext": "RECARGAR",
+      "footerButtonCancel": "CANCELAR",
+      "cardsCivicSummary": {
+        "title": "Resumen Cívica",
+        "valueToRecharge": "Valor a recargar",
+        "valueToRechargeChange": "Cambiar",
+        "civicBalance": "Saldo Cívica",
+        "debt": {
+          "title": "Deuda",
+          "info": "Valor que te prestó Cívica cuando no tenías saldo para un viaje."
+        },
+        "rechargePending": {
+          "title": "Recarga pendiente por activar",
+          "info": "Este valor se cargará en tu Cívica cuando pases por una máquina lectora."
+        },
+        "lastRecharge": {
+          "title": "Fecha de última recarga",
+          "info": "Esta fue la última vez que se actualizó el saldo en tu Cívica."
+        },
+        "civicNumber": "Número de Cívica",
+        "documentNumber": "Número de documento",
+        "refillCost": "Costo de la recarga"
+      },
+      "cardsSource": {
+        "title": "Producto de origen"
+      }
+    },
+    "cancelAlert": {
+      "text": "¿Quieres cancelar la recarga?",
+      "buttonConfirm": "Sí",
+      "buttonCancel": "No"
+    },
+    "overlay": {
+      "helpText": "Mínimo {0} - Máximo {1}",
+      "messageUpdated": "El valor fue actualizado.",
+      "valueToRecharge": "Valor a recargar",
+      "value": "Valor",
+      "accept": "ACEPTAR",
+      "error": "El monto debe ser mayor a {0} y menor a {1}"
+    }
+  },
+  "screenOtp": {
+    "header": {
+      "title": "Recargar",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "expirationMinutes": 5,
+    "requestOtpMessage": "Cargando...",
+    "requestRechargeMessage": "Cargando...",
+    "otp-page": {
+      "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+      "headerSubTitle": "RECARGAR CÍVICA",
+      "headerTitle": "Código de seguridad",
+      "bodyText": "Ingresa el código de seguridad que enviamos a tu celular. El código tiene una duración de {0} minutos.",
+      "countdownLabelWithoutTimer": "Puedes usar el código en",
+      "cardTitle": "Ingresa el código de seguridad",
+      "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+      "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+      "submitButtonText": "Siguiente",
+      "showTitles": true
+    }
+  },
+  "screenResult": {
+    "header": {
+      "title": "Recargar",
+      "leftItem": {
+        "label": "",
+        "enabled": false
+      },
+      "rightItem": {
+        "label": "Cerrar sesión",
+        "enabled": true,
+        "icon": "QUIT"
+      }
+    },
+    "successAlert": {
+      "modalTitle": "No olvides",
+      "modalDescription": "Debes pasar tu Cívica por la máquina lectora de saldo de las estaciones para que tu saldo quede cargado.",
+      "modalButton": "ENTENDIDO"
+    },
+    "body": {
+      "success": {
+        "title": "¡Recarga exitosa!",
+        "description": "",
+        "value": "Valor recargado"
+      },
+      "pending": {
+        "title": "Recarga pendiente",
+        "description": "En pocos minutos recibirás un mensaje de texto informándote si la recarga fue exitosa o no.",
+        "value": "Valor pendiente"
+      },
+      "reject": {
+        "title": "Recarga rechazada",
+        "description": "Lo sentimos, la recarga no pudo realizarse con éxito. Inténtalo más tarde.",
+        "value": "Valor"
+      },
+      "voucher_number_label": "Comprobante No.",
+      "recharge_data_box": {
+        "title": "Datos de la recarga",
+        "civic_card": "Tarjeta Cívica",
+        "cost_label": "Costo de la recarga",
+        "cost_value": "$ 0,00"
+      },
+      "origin_product_box": {
+        "title": "Producto origen"
+      }
+    },
+    "shortcuts": [
+      {
+        "icon": "SHARE",
+        "title": "Compartir",
+        "route": "share"
+      },
+      {
+        "icon": "ACCEPTED_CARD",
+        "title": "Realizar otra recarga",
+        "route": "CivicRecharge"
+      }
+    ]
+  }
+}

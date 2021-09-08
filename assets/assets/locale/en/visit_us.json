@@ -1,0 +1,149 @@
+{
+    "form": {
+        "appbar": {
+            "title": "VISÍTANOS - PUNTOS DE ATENCIÓN",
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "label": "Siguiente",
+                "enabled": false,
+                "icon": "ARROW2_RIGHT"
+            }
+        },
+        "title": "¿Dónde estás ubicado?",
+        "subtitle": "VISÍTANOS - PUNTOS DE ATENCIÓN",
+        "department": "Departamento",
+        "city":"Ciudad o Municipio",
+        "overlayDepartment": "Selecciona un Departamento",
+        "overlayCityOrMunicipy": "Selecciona una Ciudad o Municipio",
+        "settingsButton": "Configurar",
+        "settingsMessage": "Activa el permiso de ubicación de tu dispositivo para una mejor\nexperiencia."
+    },
+    "no-points": {
+        "title": "Intenta más tarde",
+        "message": "No hay puntos de atención para tu ubicación"
+    },
+    "map-points": {
+        "appbar": {
+            "title": "VISÍTANOS - PUNTOS DE ATENCIÓN",
+            "leftItem": {
+                "label": "Cerrar",
+                "enabled": true,
+                "icon": "ERROR"
+            },
+            "rightItem": {
+                "label": "",
+                "enabled": false,
+                "icon": "ARROW2_RIGHT"
+            }
+        },
+        "searchPointVisible": true
+    },
+    "type-points": [
+        {
+            "type-id": "branchOffice",
+            "name": "Sucursales",
+            "icon": "MUSEUM"
+        },
+        {
+            "type-id": "atm",
+            "name": "Cajeros",
+            "icon": "ATM"
+        },
+        {
+            "type-id": "agent",
+            "name": "Corresponsales",
+            "icon": "STORE"
+        }
+    ],
+    "filters": {
+        "appbar": {
+            "title": "VISÍTANOS - PUNTOS DE ATENCIÓN",
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "label": "",
+                "enabled": false,
+                "icon": "ARROW2_RIGHT"
+            }
+        },
+        "title": "Filtros",
+        "titleSchedule": "Horarios",
+        "titleSpecialService": "Servicios especiales",
+        "buttonTitle" : "Aplicar",
+        "listScheduleItems" : [
+            {
+                "optionId": "isOpen",
+                "name": "Abierto"
+            },
+            {
+                "optionId": "hasExtendedHours",
+                "name": "Extendidos"
+            },
+            {
+                "optionId": "hasSchedulesOnSunday",
+                "name": "Domingos"
+            },
+            {
+                "optionId": "hasSchedulesOnHoliDays",
+                "name": "Festivos"
+            }
+        ],
+        "listSpecialServiceItems" : [
+            {
+                "optionId": "hasQflow",
+                "name": "Turno"
+            },
+            {
+                "optionId": "service1",
+                "name": "Divisas"
+            },
+            {
+                "optionId": "service2",
+                "name": "Fila presencial"
+            },
+            {
+                "optionId": "service3",
+                "name": "Fila empresarial"
+            }
+        ]
+    },
+    "point-modal": {
+        "phoneLabel": "Teléfonos: ",
+        "closedLabel": "Cerrado",
+        "openedLabel": "Abierto",
+        "schedulesClosed": "Hora de cierre hoy:",
+        "serviceLabel": "¿Qué puedo encontrar aquí?",
+        "schedulesLabel": "Horarios: ",
+        "buttonLabel": "¿CÓMO LLEGAR?"
+    },
+    "no-search": {
+        "image": "",
+        "title": "No se encontraron resultado para",
+        "message": "El lugar que ingresaste no arrojó ningún resultado",
+        "buttonLabel": "INTENTAR NUEVAMENTE"
+    },
+    "search-points": {
+        "appbar": {
+            "title": "VISÍTANOS - PUNTOS DE ATENCIÓN",
+            "leftItem": {
+                "label": "Cerrar",
+                "enabled": true,
+                "icon": "ERROR"
+            },
+            "rightItem": {
+                "label": "",
+                "enabled": false,
+                "icon": "ARROW2_RIGHT"
+            }
+        },
+        "inputLabel": "Buscar",
+        "inputIcon": "LOCATION"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "onboarding": {
+        "onboarding-items": [
+            {
+                "title": "¡Retirar tu dinero es muy fácil!",
+                "description": "Tendrás un código temporal para sacar tu dinero en un Cajero o un Corresponsal Bancario Bancolombia.",
+                "image": "gestionar_clave_dinamica"
+            },
+            {
+                "title": "Retirar en cajero",
+                "description": "Con el código de retiro acércate a un cajero, elige la opción Retiro Bancolombia A la Mano y sigue las instrucciones.",
+                "image": "gestionar_clave_dinamica"
+            },
+            {
+                "title": "Retirar en Corresponsal Bancario",
+                "description": "Con el código de retiro, acércate a un Corresponsal Bancario e informale que vas a hacer un retiro de Bancolombia A la mano.",
+                "image": "gestionar_clave_dinamica"
+            }
+        ]
+    },
+    "generateCode": {
+        "header": {
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "enabled": false,
+                "label": ""
+            }
+        },
+        "subTitle": "MOVER DINERO",
+        "title": "Retirar dinero",
+        "content": "Retira tu dinero en Cajeros automáticos Bancolombia o Corresponsales Bancarios Bancolombia.",
+        "buttonText": "GENERAR CÓDIGO",
+        "alertErrorMessage": "Ha ocurrido un error inesperado en la transacción. Inténtalo de nuevo."
+    },
+    "code": {
+        "header": {
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "enabled": false,
+                "label": ""
+            }
+        },
+        "subTitle": "MOVER DINERO",
+        "title": "Retirar dinero",
+        "topCardTitle": "Código de retiro",
+        "timerLabelWithoutNumber": "Vence en",
+        "topCardContentText": "Úsalo para un solo retiro en Cajeros y Corresponsales bancarios",
+        "topCardButtonText": "GENERAR OTRO CÓDIGO DE RETIRO",
+        "requestButtonFailureAlertText": "Espera 15 segundos para generar un nuevo código.",
+        "topCardEndTimerLabel": "Código \nexpirado",
+        "SaveButtonAlertText": "Se ha guardado una imagen del código en tu celular",
+        "ErrorModalTitle": " Intenta más tarde",
+        "ErrorModalContentText": "Ha ocurrido un error al generar el código de retiro",
+        "ErrorModalButtonText": "CERRAR",
+        "shortcuts": [
+            {
+                "icon": "LOCATION",
+                "title": "Visítanos",
+                "route": "VisitUs"
+            },
+            {
+                "icon": "LOCATION",
+                "title": "Guardar \ncódigo",
+                "route": "Save"
+            }
+        ]
+    },
+    "successfulCode": {
+        "header": {
+            "leftItem": {
+                "label": "",
+                "enabled": false
+            },
+            "rightItem": {
+                "label": "Cerrar Sesión",
+                "enabled": true,
+                "icon": "QUIT"
+            }
+        },
+        "title": "Código Exitoso",
+        "pageTitle": "¡Código enviado a tu celular!",
+        "pageSubTitle": "Hemos enviado el código de retiro como mensaje de texto al número de celular de Bancolombia A la mano. Recuerda que tienes 30 minutos para usarlo.",
+        "shortcuts": [
+            {
+                "icon": "LOCATION",
+                "title": "Visítanos",
+                "route": "VisitUs"
+            },
+            {
+                "icon": "WITHDRAW_CASH",
+                "title": "Realizar otro retiro",
+                "route": "MoneyWithdrawal"
+            }
+        ]
+    }
+}

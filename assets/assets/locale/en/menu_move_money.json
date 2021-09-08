@@ -1,0 +1,91 @@
+{
+  "qr-loading-message": "Leyendo QR",
+  "bc-item-list-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "enabled": false,
+        "label": ""
+      }
+    },
+    "title": "Enviar dinero",
+    "subtitle": "MOVER DINERO",
+    "qr-no-valid-message": "Código QR inválido",
+    "items": [
+      {
+        "leadingIcon": "SEND_MONEY_2",
+        "label": "Enviar dinero",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true,
+        "acordeon": false
+      },
+      {
+        "leadingIcon": "QR_SCAN",
+        "label": "Enviar dinero con código QR",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true,
+        "acordeon": true,
+        "shortcuts": [
+          {
+            "icon": "CAMERA",
+            "label": "Leer código QR\n usando la\n cámara",
+            "route": "camera"
+          },
+          {
+            "icon": "IMAGE",
+            "label": "Leer código QR\n usando una\n imagen",
+            "route": "gallery"
+          }
+        ]
+      },
+      {
+        "leadingIcon": "GIFT",
+        "label": "Enviar regalo",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true,
+        "acordeon": false
+      }
+    ]
+  },
+  "first-level-menu-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "enabled": false,
+        "label": ""
+      }
+    },
+    "title": "Mover dinero",
+    "subtitle": "MOVER DINERO",
+    "items": [
+      {
+        "leadingIcon": "WITHDRAW_CASH",
+        "label": "Retirar dinero",
+        "hint": "Generar código de retiro",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true
+      },
+      {
+        "leadingIcon": "SEND_MONEY_2",
+        "label": "Enviar dinero",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true
+      },
+      {
+        "leadingIcon": "QR_SCAN",
+        "label": "Recibir dinero",
+        "hint": "Generar código QR",
+        "trailingIcon": "ARROW2_RIGHT",
+        "enabled": true
+      }
+    ]
+  }
+}

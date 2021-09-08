@@ -1,0 +1,80 @@
+{
+  "header": {
+    "leftItem": {
+      "label": "Volver",
+      "enabled": true,
+      "icon": "ARROW2_LEFT"
+    },
+    "rightItem": {
+      "enabled": false,
+      "label": ""
+    }
+  },
+  "title": "Documentos legales",
+  "subtitle": "AJUSTES",
+  "resource_error_message": "Este recurso no está disponible en este momento.",
+  "loading_message": "Cargando",
+  "items": [
+    {
+      "label": "",
+      "enabled": true,
+      "children": [
+        {
+          "id": "data_protection",
+          "leadingIcon": "DOCUMENT",
+          "label": "Protección de datos",
+          "trailingIcon": "ARROW2_RIGHT",
+          "enabled": true,
+          "url": "https://www.grupobancolombia.com/personas/documentos-legales/proteccion-datos/bancolombia-sa"
+        },
+        {
+          "id": "legal_warning",
+          "leadingIcon": "LAW",
+          "label": "Aviso legal",
+          "trailingIcon": "ARROW2_RIGHT",
+          "enabled": true,
+          "url": "legal_warning"
+        }
+      ]
+    },
+    {
+      "label": "Términos y condiciones",
+      "enabled": true,
+      "children": [
+        {
+          "id": "chanel_regulation",
+          "leadingIcon": "",
+          "label": "Reglamento del canal banca por internet",
+          "trailingIcon": "ARROW2_RIGHT",
+          "enabled": true,
+          "url": "https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/1dcd5b4b-a856-4cee-9df9-f497eb26f964/Reglamento+Banca+por+Internet.pdf?MOD=AJPERES&CVID=l.B62Ro"
+        },
+        {
+          "id": "account_regulation",
+          "leadingIcon": "",
+          "label": "Reglamento de cuenta de ahorro de Trámite Simplificado",
+          "trailingIcon": "ARROW2_RIGHT",
+          "enabled": true,
+          "url": "https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/60612c30-a4ab-4f07-9fea-ef10191daff8/Reglamento%2BCATS.pdf?MOD=AJPERES&CVID=n71hxjY"
+        }
+      ]
+    }
+  ],
+  "legal_warning": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "enabled": false,
+        "label": ""
+      }
+    },
+    "title": "Aviso legal",
+    "subtitle": "DOCUMENTOS LEGALES",
+    "content": "En App Bancolombia A la mano aplican los términos legales del reglamento para Sucursal Virtual Personas, así como las condiciones de uso, políticas de privacidad y seguridad de este canal. Igualmente, el reglamento para Cuentas de Trámite Simplificado Ahorro A la mano. \u2028Puedes consultarlos ingresando a nuestra página \n",
+    "url":"https://www.grupobancolombia.com"
+  }
+}

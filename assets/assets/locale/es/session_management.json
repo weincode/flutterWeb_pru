@@ -1,0 +1,21 @@
+{
+    "inactivity-modal": {
+        "title": "Cerramos la sesión",
+        "svg": "time",
+        "message": "Por seguridad cerramos tu sesión porque excediste el tiempo límite de inactividad.",
+        "button-text": "REGRESAR"
+    },
+    "session-ending-warning-modal": {
+        "title": "Cerraremos la sesión",
+        "svg": "time",
+        "message": "Por seguridad en {0} minutos cerraremos la sesión.",
+        "time-left": "5",
+        "button-text": "ENTENDIDO"
+    },
+    "session-ended-modal": {
+        "title": "La sesión ha caducado",
+        "svg": "time",
+        "message": "Cerramos la sesión porque has superado el tiempo límite de actividad.\nPara continuar, inicia sesión de nuevo.",
+        "button-text": "INICIAR SESIÓN"
+    }
+}

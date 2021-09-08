@@ -1,0 +1,158 @@
+{
+  "header": {
+    "left": {
+      "icon": "ARROW2_LEFT",
+      "label": "Volver",
+      "enabled": true
+    },
+    "center": {
+      "icon": "",
+      "label": "Crédito A la mano",
+      "enabled": true
+    }
+  },
+  "title": "Crédito A la mano",
+  "subTitle": "MIS PRODUCTOS",
+  "account": {
+    "name": "Número del crédito",
+    "id": "",
+    "balanceLabel": "Deuda hasta la fecha",
+    "balance": "0"
+  },
+  "header_body_detail": {
+    "type_label": "Número de crédito",
+    "type_tooltip": "Usa este número si quieres pagar la cuota en corresponsales bancarios.",
+    "type_tooltip_icon": "INFO",
+    "number_label": "",
+    "number": "*5476",
+    "description": "Deuda a la fecha",
+    "cop_value": "2000000",
+    "dollars_value": "",
+    "visibility_currency": false
+  },
+  "tabs": [
+    {
+      "name": "Detalle",
+      "items": [
+        {
+          "label": "Deuda a la fecha sin intereses",
+          "value": "deudaSinIntereses",
+          "toolTip": ""
+        },
+        {
+          "label": "Fecha próximo pago",
+          "value": "fechaProximoPago",
+          "toolTip": ""
+        },
+        {
+          "label": "Intereses corrientes",
+          "value": "interesesCorrientes",
+          "toolTip": ""
+        },
+        {
+          "label": "Saldo en mora",
+          "value": "saldoEnMora",
+          "toolTip": "Valor total en mora generado por retraso en el pago de tu cuota."
+        },
+        {
+          "label": "Intereses de mora",
+          "value": "interesesEnMora",
+          "toolTip": ""
+        },
+        {
+          "label": "Otros cargos",
+          "value": "otrosCargos",
+          "toolTip": ""
+        },
+        {
+          "label": "Fecha de desembolso",
+          "value": "fechaDesembolso",
+          "toolTip": ""
+        },
+        {
+          "label": "Valor desembolso",
+          "value": "valorDesembolsado",
+          "toolTip": ""
+        }
+      ]
+    }
+  ],
+  "shortcuts": [],
+  "payment_page": {
+    "header": {
+      "left": {
+        "icon": "ARROW2_LEFT",
+        "label": "Volver",
+        "enabled": true
+      },
+      "center": {
+        "icon": "",
+        "label": "Crédito A la mano",
+        "enabled": true
+      }
+    },
+    "title": "Crédito A la mano",
+    "subTitle": "MIS PRODUCTOS",
+    "credit": {
+      "type_tooltip": "Crédito A la mano",
+      "type_tooltip_icon": "INFO",
+      "type_label": "Tipo de crédito",
+      "number_label": "Número de crédito",
+      "number": "*5476",
+      "description": "Deuda a la fecha",
+      "cop_value": "2000000.00",
+      "dollars_value": "576.00",
+      "visibility_currency": true
+    },
+    "body_label": "Datos del pago",
+    "payment_items": [
+      {
+        "description_label": "Pago mínimo en pesos",
+        "value": "380900",
+        "option_label": "Pagar",
+        "option_icon": "ARROW2_RIGHT",
+        "description_icon": ""
+      },
+      {
+        "descriptionLabel": "Pago mínimo alternativo",
+        "value": "290720",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": "INFO",
+        "tooltip_description": "mi primer tooltip"
+      },
+      {
+        "descriptionLabel": "Pago mínimo en dólares",
+        "value": "0",
+        "optionLabel": "",
+        "optionIcon": "",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Pago total en pesos",
+        "value": "0",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Pago total en dólares",
+        "value": "576",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      },
+      {
+        "descriptionLabel": "Otro valor",
+        "value": "",
+        "optionLabel": "Pagar",
+        "optionIcon": "ARROW2_RIGHT",
+        "descriptionIcon": ""
+      }
+    ],
+    "bottom_card": {
+      "icon": "INFO",
+      "description": "Conoce más sobre el pago de la cuota de manejo"
+    }
+  }
+}

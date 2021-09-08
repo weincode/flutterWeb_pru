@@ -1,0 +1,86 @@
+{
+  "profile_image": "",
+  "last_login_label": "Último ingreso: ",
+  "last_connection_ip_address_label": "IP: ",
+  "title": "Ajustes",
+  "show_footer_button": true,
+  "show_footer_items": true,
+  "footer_button_label": "CERRAR SESIÓN",
+  "show_bottom_menu_items": true,
+  "sign_out_button_text": "CERRAR SESIÓN",
+  "sign_in_button_text": "INGRESAR",
+  "menu_items": [
+    {
+      "id": "personal_information",
+      "label": "Perfil",
+      "sub_label": "Datos personales y de verificación",
+      "sufix_icon": "ARROW2_RIGHT",
+      "prefix_icon": "USER"
+    },
+    {
+      "id": "security",
+      "label": "Seguridad",
+      "sub_label": "Cuida los recursos",
+      "sufix_icon": "ARROW2_RIGHT",
+      "prefix_icon": "SECURITY"
+    },
+    {
+      "id": "documents",
+      "label": "Documentos legales",
+      "sub_label": "",
+      "sufix_icon": "ARROW2_RIGHT",
+      "prefix_icon": "DOCUMENTS"
+    }
+  ],
+  "personal_information": {
+    "back_button_icon": "ARROW2_LEFT",
+    "back_button_label": "Volver",
+    "subtitle": "AJUSTES",
+    "title": "Perfil",
+    "body_header": "Datos de seguridad y verificación",
+    "email_label": "Correo electrónico",
+    "email_content": "****rreo@gmail.com",
+    "email_change_label": "Cambiar",
+    "email_change_icon": "ARROW2_RIGHT",
+    "phone_number_label": "Número de celular",
+    "phone_number_content": "*2321",
+    "phone_change_label": "Cambiar",
+    "phone_change_icon": "ARROW2_RIGHT",
+    "change_alert_text": "Ten en cuenta que si cambias el número de celular, cambiará el número asociado a Bancolombia A la mano",
+    "change_alert_icon": "IDEA"
+  },
+  "security_page": {
+    "appBar": {
+      "title": "",
+      "left": {
+        "label": "Volver",
+        "icon": "ARROW2_LEFT"
+      }
+    },
+    "title": {
+      "label": "Seguridad",
+      "style": ""
+    },
+    "sub_title": {
+      "label": "AJUSTES",
+      "style": ""
+    },
+    "secondary_title": {
+      "label": "Verificación de identidad",
+      "style": ""
+    },
+    "default_options": [
+    ],
+    "secondary_options": [
+      {
+        "title": "Cambiar clave",
+        "icon": "ARROW2_RIGHT"
+      },
+      {
+        "title": "Desactivar huella / Face ID",
+        "icon": "ARROW2_RIGHT"
+      }
+    ],
+    "optionsExclusive" : ["Cambiar clave"]
+  }
+}

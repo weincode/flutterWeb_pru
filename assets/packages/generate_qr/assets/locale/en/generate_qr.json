@@ -1,0 +1,265 @@
+{
+  "cancelModal": {
+    "description": "¿Quieres cancelar la generación de QR?",
+    "btnPrimaryLabel": "SÍ",
+    "btnSecondaryLabel": "NO"
+  },
+  "paginator": {
+    "paginator-titles": [
+      {
+        "title": "Nombre personalizado",
+        "subtitle": "GENERAR CÓDIGO QR"
+      },
+      {
+        "title": "Producto destino",
+        "subtitle": "GENERAR CÓDIGO QR"
+      },
+      {
+        "title": "Valor",
+        "subtitle": "GENERAR CÓDIGO QR"
+      },
+      {
+        "title": "Descripción",
+        "subtitle": "GENERAR CÓDIGO QR"
+      }
+    ],
+    "paginator-pages": [
+      {
+        "page-name": "custom-name",
+        "header": {
+          "leftItem": {
+            "label": "Cancelar",
+            "enabled": true,
+            "icon": "ERROR"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "cardCustom": {
+            "label": "Ingresa un nombre personalizado",
+            "iconLeft": "ID",
+            "iconRight": "",
+            "error": "El nombre no puedo superar los 20 caracteres",
+            "help": "Te ayudará a identificar el código QR",
+            "helpField": "Solo puedes usar letras y números"
+          }
+        }
+      },
+      {
+        "page-name": "destination-account",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "input": {
+            "labelText": "Ingrese el número del producto",
+            "iconLeft": "PRODUCT_NUMBER",
+            "errorMessage": "Ingresa un producto de destino valido"
+          },
+          "title": "Seleccione el tipo de producto",
+          "options": {
+            "CUENTA_DE_AHORRO": "Ahorros/Bancolombia A la mano",
+            "CUENTA_CORRIENTE": "Corriente"
+          }
+        }
+      },
+      {
+        "page-name": "value",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "title": "Selecciona el valor",
+          "checkBox": {
+            "tileOne": "Con valor",
+            "titleTwo": "Sin valor"
+          },
+          "cardValue": {
+            "label": "Ingresa el valor a recibir",
+            "icon": "CURRENCY_PESO"
+          }
+        }
+      },
+      {
+        "page-name": "description",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "cardDescription": {
+            "label": "Descripción",
+            "iconLeft": "CHAT_DOTS",
+            "iconRight": "",
+            "help": "Ingresa una referencia (Opcional)",
+            "helpField": "Solo puedes usar letras y números"
+          }
+        }
+      }
+    ],
+    "labelbutton": "SIGUIENTE"
+  },
+  "verification-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Generar QR",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Verifica la generación",
+    "subtitle": "GENERAR CÓDIGO QR",
+    "cancelVerification": {
+      "title": "Cancelar proceso",
+      "message": "El código QR no será generado",
+      "primaryBtnLabel": "SALIR",
+      "secondaryBtnLabel": "REGRESAR"
+    },
+    "body": {
+      "customName": {
+        "label": "Nombre Personalizado",
+        "change": "Cambiar",
+        "changeActive": true
+      },
+      "destinationAccount": {
+        "labelDestinationAccount": "Producto destino",
+        "labelDescription": "Descripción",
+        "labelValue": "Valor a recibir",
+        "emptyTextValue": "Sin valor",
+        "emptyTextOther": "Sin datos",
+        "labelChange": "Cambiar",
+        "labelChangeActive": true
+      },
+      "saveQrVisible": false,
+      "saveQr": {
+        "textSave": "Guardar código QR",
+        "decisionYes": "Si",
+        "decisionNot": "No"
+      },
+      "update-message": "Dato actualizado correctamente",
+      "loading-message": "Validando"
+    },
+    "footer": {
+      "labelButtonSend": "GENERAR QR",
+      "labelButtonCancel": "CANCELAR"
+    },
+    "changeOverlays": [
+      {
+        "title": "Nombre personalizado",
+        "label": "Nombre",
+        "icon": "ID",
+        "help": "",
+        "btnText": "ACEPTAR"
+      },
+      {
+        "title": "Valor a recibir",
+        "label": "Valor",
+        "icon": "CURRENCY_PESO",
+        "help": "",
+        "btnText": "ACEPTAR"
+      },
+      {
+        "title": "Descripción",
+        "label": "Descripción",
+        "icon": "CHAT_DOTS",
+        "help": "Ingresa una referencia (Opcional)",
+        "btnText": "ACEPTAR"
+      },
+      {
+        "title": "Referencia",
+        "label": "Referencia",
+        "icon": "CHAT_DOTS",
+        "help": "Ingresa una referencia",
+        "btnText": "ACEPTAR"
+      }
+    ]
+  },
+  "success": {
+    "header": {
+      "leftItem": {
+        "label": "",
+        "enabled": true,
+        "icon": null
+      },
+      "rightItem": {
+        "label": "Cerrar sesión",
+        "enabled": true,
+        "icon": "QUIT"
+      }
+    },
+    "body": {
+      "icon": "OK",
+      "title": "¡Generación exitosa!",
+      "subtitleVisible": false,
+      "subtitle": "Ya puedes consultar este código QR en la \nopción “Mis códigos QR”",
+      "titleAccount": "Producto destino",
+      "dataAccount": {
+        "labelCustomName": "Nombre personalizado",
+        "labelValue": "Valor a recibir",
+        "labelDescription": "Descripción",
+        "emptyTextValue": "Sin valor"
+      }
+    },
+    "shortcut": [
+      {
+        "icon": "SHARE",
+        "title": "Compartir",
+        "route": "share"
+      },
+      {
+        "icon": "QR_SCAN",
+        "title": "Generar otro\ncódigo QR",
+        "route": "GenerateQR"
+      }
+    ]
+  },
+  "onboarding": {
+    "onboarding-items": [
+      {
+        "title": "Genera códigos QR",
+        "description": "El código QR es una forma de enviar o recibir dinero entre cuentas Bancolombia.",
+        "image": "enviar_recibir_QR"
+      },
+      {
+        "title": "",
+        "description": "Realiza transferencias usando la cámara o una imagen de forma rápida y sencilla.",
+        "image": "codigo_qr"
+      }
+    ]
+  }
+}

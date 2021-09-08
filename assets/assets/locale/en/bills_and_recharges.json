@@ -1,0 +1,47 @@
+{
+  "bills_and_recharges": {
+    "appBar": {
+      "title": "Recargar",
+      "subTitle": "FACTURAS Y RECARGAS",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": ""
+      },
+      "right": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": ""
+      }
+    },
+    "acordeon": [
+      {
+        "title": "Pagar y administrar facturas",
+        "subTitle": "",
+        "icon": "RECEIPT",
+        "to": "MenuInvoicesPayment"
+      },
+      {
+        "title": "Recargar",
+        "subTitle": "",
+        "icon": "ACCEPTED_CARD",
+        "to": "/bills_and_recharge_transport"
+      }
+    ],
+    "acordeonTransport": {
+      "title": "Transporte",
+      "items": [
+        {
+          "title": "Recargar Cívica",
+          "subTitle": "Medellín",
+          "to": "CivicRecharge"
+        },
+        {
+          "title": "Historial de recargas",
+          "subTitle": "",
+          "to": "/recharge_history"
+        }
+      ]
+    }
+  }
+}

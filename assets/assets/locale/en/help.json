@@ -1,0 +1,34 @@
+{
+  "menu_help": {
+    "rightItemVisibility":true,
+    "appBar": {
+      "title": "Ayuda",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "items": [
+      {
+        "leadingIcon": "CONTACT_CENTER",
+        "title": "Contáctanos",
+        "subtitle": "Resuelve tus inquietudes",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "contact_us"
+      },
+      {
+        "leadingIcon": "LOCATION",
+        "title": "Visítanos",
+        "subtitle": "Puntos de atención",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "VisitUs"
+      }
+    ]
+  }
+}

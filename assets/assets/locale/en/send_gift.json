@@ -1,0 +1,472 @@
+{
+  "onboarding": {
+    "onboarding-items": [
+      {
+        "title": "¡Envía un Regalo!",
+        "description": "¿Cumpleaños, fiesta de grado o una fecha especial para celebrar? Envía dinero como un regalo a Cuentas Bancolombia.",
+        "image": "regalo"
+      },
+      {
+        "title": "Personaliza tu regalo",
+        "description": "Elige un motivo para celebrar e inspírate para enviar un emotivo mensaje.",
+        "image": "personaliza_regalo"
+      },
+      {
+        "title": "Ingresa el valor de tu regalo y envíalo",
+        "description": "Indica la cantidad de dinero, los datos de la cuenta destino y envía el regalo.",
+        "image": "uso_efectivo"
+      }
+    ]
+  },
+  "paginator": {
+    "paginator-titles": [
+      {
+        "title": "Selecciona un motivo para celebrar",
+        "subtitle": "ENVIAR REGALO"
+      },
+      {
+        "title": "Personaliza tu regalo",
+        "subtitle": "ENVIAR REGALO"
+      },
+      {
+        "title": "Valor",
+        "subtitle": "ENVIAR REGALO"
+      },
+      {
+        "title": "Producto destino",
+        "subtitle": "ENVIAR REGALO"
+      }
+    ],
+    "paginator-pages": [
+      {
+        "page-name": "select-motive-page",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": false,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "motives": [
+          {
+            "icon": "cumpleaños",
+            "title": "Cumpleaños"
+          },
+          {
+            "icon": "amor",
+            "title": "Amor"
+          },
+          {
+            "icon": "navidad",
+            "title": "Navidad"
+          },
+          {
+            "icon": "matrimonio",
+            "title": "Matrimonio"
+          },
+          {
+            "icon": "primera comunion",
+            "title": "Primera comunión"
+          },
+          {
+            "icon": "parati",
+            "title": "Toda ocasión"
+          },
+          {
+            "icon": "te doy mi mano",
+            "title": "Te doy mi mano"
+          }
+        ]
+      },
+      {
+        "page-name": "inputs-page",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "inputs": [
+          {
+            "key": "from",
+            "labelText": "De",
+            "textInputType": "text"
+          },
+          {
+            "key": "to",
+            "labelText": "Para",
+            "textInputType": "text"
+          },
+          {
+            "key": "message",
+            "labelText": "Mensaje personalizado",
+            "textInputType": "text"
+          }
+        ]
+      },
+      {
+        "page-name": "enter-value",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "input": {
+            "labelText": "Ingresa el valor a enviar",
+            "errorText": "Valor no válido",
+            "iconLeft": "CURRENCY_PESO",
+            "maxLength": 14
+          },
+          "showProduct": {
+            "productNumber": "Número de producto",
+            "availableBalance": "Saldo disponible"
+          }
+        }
+      },
+      {
+        "page-name": "enter-destination-product",
+        "hasDestinationProducts": false,
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": true,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "input": {
+            "labelText": "Ingresa el número del producto",
+            "iconLeft": "PRODUCT_NUMBER",
+            "errorText": "Ingresa un número del producto valido"
+          },
+          "title": "Selecciona el tipo de producto",
+          "options": {
+            "CUENTA_DE_AHORRO": "Ahorros/Bancolombia A la mano",
+            "CUENTA_CORRIENTE": "Corriente"
+          }
+        }
+      }
+    ],
+    "labelbutton": "SIGUIENTE"
+  },
+  "bc-verification-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Enviar regalo",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Verifica el envío",
+    "subtitle": "ENVIAR REGALO",
+    "body": {
+      "sourceaccount": {
+        "labelsourceaccount": "Datos del regalo",
+        "labelchange": "Producto origen",
+        "labelchangeactive": false,
+        "labelsendvalue": "Valor a enviar",
+        "labelchangesendvalue": "Cambiar",
+        "labelchangeactivesendvalue": true
+      },
+      "targetaccount": {
+        "labelsourceaccount": "Producto destino",
+        "labelcost": "Costo del envío",
+        "labelchange": "Cambiar",
+        "labelgiftto": "Para:",
+        "labelchangeactive": true
+      },
+      "update-message": "Dato actualizado correctamente",
+      "loading-message": "Validando",
+      "text-accept": "Acepto",
+      "text-termconditions": "términos y condiciones",
+      "error-changed": "Error actualizando el valor"
+    },
+    "footer": {
+      "labelbuttonsend": "ENVIAR REGALO",
+      "labelbuttoncancel": "CANCELAR"
+    },
+    "overlay": {
+      "labelsendvalue": "Valor a enviar",
+      "labeltext": "valor",
+      "errortext": "Valor no permitido",
+      "btntext": "ACEPTAR",
+      "maxLength": 14,
+      "icon": "CURRENCY_PESO"
+    },
+    "cancelModal": {
+      "description": "¿Quieres cancelar el envío de regalo?",
+      "btnPrimaryLabel": "SÍ",
+      "btnSecondaryLabel": "NO"
+    }
+  },
+  "send-money-otp-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "alertButtonText": "Volver",
+    "alertIcon": "mano_5",
+    "alertMessageText": "Serás redireccionado al inicio de la transacción",
+    "otp-page": {
+      "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+      "headerSubTitle": "ENVIO REGALO",
+      "headerTitle": "Código de seguridad",
+      "bodyText": "Ingresa el código de seguridad que enviamos a tu celular. El código tiene una duración de {0} minutos.",
+      "countdownLabelWithoutTimer": "Puedes usar el código en",
+      "cardTitle": "Ingresa el código de seguridad",
+      "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+      "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+      "submitButtonText": "Siguiente",
+      "showTitles": true
+    }
+  },
+  "transaction-result-page": {
+    "header": {
+      "leftItem": {
+        "label": "",
+        "enabled": false
+      },
+      "rightItem": {
+        "label": "Cerrar sesión",
+        "enabled": true,
+        "icon": "QUIT"
+      }
+    },
+    "show-gift": {
+      "icon": "OK",
+      "title": "¡Regalo enviado!",
+      "voucher-label": "Así se verá la tarjeta del regalo:",
+      "gift-container": {
+        "title": "¡Tienes un regalo!",
+        "from": "De",
+        "to": "Para",
+        "message": "Frase personalizada"
+      },
+      "message-title": "Así se verá la tarjeta del regalo:",
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir tarjeta regalo",
+          "route": ""
+        },
+        {
+          "icon": "RECEIPT",
+          "label": "Ver comprobante",
+          "route": "transaction_result"
+        }
+      ]
+    },
+    "gift-success": {
+      "icon": "OK",
+      "title": "¡El regalo se ha enviado correctamente!",
+      "voucher-label": "Comprobante No.",
+      "origin-account": {
+        "acordeon-label": "Producto origen",
+        "account-type-label": "Mi producto de",
+        "new-balance-label": "Nuevo saldo disponible",
+        "sent-value-label": "Valor enviado",
+        "sent-dates": "Datos del regalo"
+      },
+      "destination-account": {
+        "acordeon-label": "Producto destino",
+        "cost-label": "Costo del envío"
+      },
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir",
+          "route": ""
+        },
+        {
+          "icon": "DOCUMENT",
+          "label": "Ver tarjeta\nregalo",
+          "route": "/send_money_transaction_result_page",
+          "arguments": true
+        },
+        {
+          "icon": "GIFT",
+          "label": "Enviar otro\nregalo",
+          "route": "/send-gift-transaction",
+          "replace-route": true
+        }
+      ]
+    },
+    "success": {
+      "icon": "OK",
+      "title": "¡El envío fue exitoso!",
+      "voucher-label": "Comprobante No.",
+      "origin-account": {
+        "acordeon-label": "Producto origen",
+        "account-type-label": "Mi producto de",
+        "new-balance-label": "Nuevo saldo disponible",
+        "sent-value-label": "Valor enviado"
+      },
+      "destination-account": {
+        "acordeon-label": "Producto destino",
+        "cost-label": "Costo del envío"
+      },
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir",
+          "route": ""
+        },
+        {
+          "icon": "ADD_MONEY",
+          "label": "Realizar otro envío",
+          "route": "menu_move_money",
+          "replace-route": true
+        }
+      ]
+    },
+    "error": {
+      "icon": "ERROR",
+      "title": "Transferencia rechazada",
+      "voucher-label": "Comprobante No.",
+      "error-message": "La transferencia no pudo realizarse con éxito.\nInténtalo más tarde.",
+      "shortcuts": [
+        {
+          "icon": "ADD_MONEY",
+          "label": "Realizar otro envío",
+          "route": "menu_move_money",
+          "replace-route": true
+        }
+      ]
+    }
+  },
+  "bc-error-page": {
+    "header": {
+      "leftItem": {
+        "label": "",
+        "enabled": false,
+        "icon": ""
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": ""
+      }
+    },
+    "body": {
+      "img-svg": "icons/ilustration/mensaje_error",
+      "subtitle": "Ha habido un error en el proceso de inscripción. Por favor inténtalo mas tarde.",
+      "code": "Código "
+    },
+    "footer": {
+      "labelbutton": "INTENTALO MAS TARDE"
+    }
+  },
+  "bc-change-product-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Cambiar",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Enviar regalo",
+    "subtitle": "PRODUCTO DESTINO",
+    "text-button": "CAMBIAR",
+    "page": {
+      "page-name": "enter-destination-product",
+      "header": {
+        "leftItem": {
+          "label": "Volver",
+          "enabled": true,
+          "icon": "ARROW2_LEFT"
+        },
+        "rightItem": {
+          "label": "Siguiente",
+          "enabled": true,
+          "icon": "ARROW2_RIGHT"
+        }
+      },
+      "body": {
+        "input": {
+          "labelText": "Ingresa el número del producto",
+          "iconLeft": "PRODUCT_NUMBER",
+          "errorText": "Ingresa un número del producto valido"
+        },
+        "title": "Selecciona el tipo de producto",
+        "options": {
+          "CUENTA_DE_AHORRO": "Ahorros/Bancolombia A la mano",
+          "CUENTA_CORRIENTE": "Corriente"
+        }
+      }
+    }
+  },
+  "select-origin-product": {
+    "header": {
+      "leftItem": {
+        "label": "Cancelar",
+        "enabled": true,
+        "icon": "ERROR"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Enviar dinero",
+    "subtitle": "PRODUCTO DESTINO",
+    "body": {
+      "items-tab": [
+        {
+          "label": "Productos",
+          "type": "ACCOUNTS"
+        },
+        {
+          "label": "Tarjeta crédito",
+          "type": "CREDIT"
+        },
+        {
+          "label": "Inversiones",
+          "type": "INVESTMENT"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "header": {
+    "title": "Mis productos"
+  },
+  "title": "Mis productos",
+  "errorLinkText": "",
+  "errorMessage": "Ha habido un error en la consulta del producto, por favor consulta más tarde.",
+  "errorTitle": "Error del sistema",
+  "preapproved": {
+    "isVisible": true,
+    "buttonLabel": "Lo quiero",
+    "date": "",
+    "description": "Tienes un préstamo aprobado hasta por {0} que podrías disfrutar inmediatamente.",
+    "value": "",
+    "imageUrl": "credito-preaprobado-online"
+  },
+  "products": [
+    {
+      "name": "Bancolombia A la mano",
+      "contentIcon": "COIN",
+      "product_type": "DEPOSITS",
+      "expanded": true,
+      "accounts": [
+        {
+          "title": "Producto Bancolombia A la mano",
+          "accountName": "Número del producto",
+          "accountNumber": "012-345678-90",
+          "balanceName": "Saldo disponible",
+          "productType": "CATS",
+          "link_labels": ["Ver detalle y movimientos"],
+          "icon": "SECONDARY_MENU"
+        }
+      ],
+      "onEmpty": {
+        "pictogram": "error",
+        "message": "No tienes Bancolombia A la mano",
+        "buttonLabel": "conoce más aquí",
+        "url":"https://www.grupobancolombia.com/personas/creditos/bajo-monto"
+      },
+      "overlay_options": ["Ver detalle y movimientos", "Enviar dinero"],
+      "isEnable": false
+    },
+    {
+      "name": "Crédito A la mano",
+      "contentIcon": "CASH_PAYMENT",
+      "product_type": "CREDITS",
+      "expanded": false,
+      "accounts": [
+        {
+          "title": "Crédito A la mano",
+          "accountName": "Número del crédito",
+          "accountNumber": "012-345678-90",
+          "balanceName": "Deuda a la fecha",
+          "productType": "CAM",
+          "link_labels": ["Ver detalle y movimientos"],
+          "icon": "SECONDARY_MENU"
+        }
+      ],
+      "onEmpty": {
+        "pictogram": "error",
+        "message": "No tienes Crédito A la mano",
+        "buttonLabel":  "CONOCE MÁS AQUI",
+        "url":"https://www.grupobancolombia.com/personas/creditos/bajo-monto"
+      },
+      "overlay_options": ["Ver detalle y movimientos"],
+      "isEnable": false
+    }
+  ],
+  "links": []
+}

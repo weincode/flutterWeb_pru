@@ -1,0 +1,9 @@
+{
+    "analytics": {
+        "firebase": false
+    },
+    "monitoring": {
+        "Dynatrace": true,
+        "Appcenter": false
+    }
+}

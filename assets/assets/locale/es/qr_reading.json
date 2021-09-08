@@ -1,0 +1,250 @@
+{
+  "qr-reading-main-widget": {
+    "title": "Escanea QR",
+    "load-image": {
+      "icon": "IMAGE",
+      "label": "Imagen"
+    },
+    "turn-lantern-on": {
+      "icon": "SMARTPHONE",
+      "label": "Linterna"
+    },
+    "no-valid-alert": "Error",
+    "no-valid-message": "Código QR inválido",
+    "loading-message": "Leyendo QR"
+  },
+  "paginator": {
+    "paginator-titles": [
+      {
+        "title": "Valor",
+        "subtitle": "ENVIAR DINERO CON CÓDIGO QR"
+      }
+    ],
+    "paginator-pages": [
+      {
+        "page-name": "enter-value",
+        "header": {
+          "leftItem": {
+            "label": "Volver",
+            "enabled": true,
+            "icon": "ARROW2_LEFT"
+          },
+          "rightItem": {
+            "label": "Siguiente",
+            "enabled": false,
+            "icon": "ARROW2_RIGHT"
+          }
+        },
+        "body": {
+          "input": {
+            "labelText": "Ingresa el valor a enviar",
+            "errorText": "Valor no válido",
+            "iconLeft": "CURRENCY_PESO"
+          },
+          "showProduct": {
+            "productNumber": "Número de producto",
+            "availableBalance": "Saldo disponible"
+          }
+        }
+      }
+    ],
+    "labelbutton": "SIGUIENTE"
+  },
+  "bc-verification-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Enviar dinero",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Verifica el envío",
+    "subtitle": "ENVIAR DINERO",
+    "body": {
+      "sourceaccount": {
+        "labelsourceaccount": "Producto origen",
+        "labelchange": "",
+        "labelchangeactive": false,
+        "labelsendvalue": "Valor a enviar",
+        "labelchangesendvalue": "Cambiar",
+        "labelchangeactivesendvalue": true
+      },
+      "targetaccount": {
+        "labelsourceaccount": "Producto destino",
+        "labelcost": "Costo",
+        "labelchange": "Cambiar",
+        "labelgiftto": "Para:",
+        "labelchangeactive": true
+      },
+      "update-message": "Dato actualizado correctamente",
+      "loading-message": "Validando",
+      "text-accept": "Acepto",
+      "text-termconditions": "términos y condiciones",
+      "error-changed": "Error actualizando el valor"
+    },
+    "footer": {
+      "labelbuttonsend": "ENVIAR DINERO",
+      "labelbuttoncancel": "CANCELAR"
+    },
+    "overlay": {
+      "labelsendvalue": "Valor a enviar",
+      "labeltext": "Valor",
+      "errortext": "Valor no permitido",
+      "btntext": "ACEPTAR",
+      "icon": "CURRENCY_PESO"
+    },
+    "cancelModal": {
+      "description": "¿Quieres cancelar la lectura QR?",
+      "btnPrimaryLabel": "SÍ",
+      "btnSecondaryLabel": "NO"
+    }
+  },
+  "send-money-otp-page": {
+    "header": {
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "alertButtonText": "Volver",
+    "alertIcon": "mano_5",
+    "alertMessageText": "Serás redireccionado al inicio de la transacción",
+    "otp-page": {
+      "alertSuccessfulCodeText": "El código de seguridad fue enviado",
+      "headerSubTitle": "ENVIO DINERO",
+      "headerTitle": "Código de seguridad",
+      "bodyText": "Ingresa el código de seguridad que enviamos a tu celular. El código tiene una duración de {0} minutos.",
+      "countdownLabelWithoutTimer": "Puedes usar el código en",
+      "cardTitle": "Ingresa el código de seguridad",
+      "inputCodeFieldErrorText": "Ingresa el código de 6 dígitos",
+      "requestNewCodeLabel": "Recibir nuevo código de seguridad",
+      "submitButtonText": "Siguiente",
+      "showTitles": true
+    }
+  },
+  "transaction-result-page": {
+    "header": {
+      "leftItem": {
+        "label": "",
+        "enabled": false
+      },
+      "rightItem": {
+        "label": "Cerrar sesión",
+        "enabled": true,
+        "icon": "QUIT"
+      }
+    },
+    "show-gift": {
+      "icon": "OK",
+      "title": "¡El regalo se ha enviado correctamente!",
+      "voucher-label": "Comprobante No.",
+      "gift-container": {
+        "title": "Tienes un regalo",
+        "from": "De",
+        "to": "Para",
+        "message": "Frase personalizada"
+      },
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir tarjeta regalo",
+          "route": ""
+        },
+        {
+          "icon": "RECEIPT",
+          "label": "Ver comprobante",
+          "route": "transaction_result"
+        }
+      ]
+    },
+    "gift-success": {
+      "icon": "OK",
+      "title": "¡El regalo se ha enviado correctamente!",
+      "voucher-label": "Comprobante No.",
+      "origin-account": {
+        "acordeon-label": "Producto origen",
+        "account-type-label": "Mi producto de",
+        "new-balance-label": "Nuevo saldo disponible",
+        "sent-value-label": "Valor enviado",
+        "sent-dates": "Datos del envío"
+      },
+      "destination-account": {
+        "acordeon-label": "Producto destino",
+        "cost-label": "Costo"
+      },
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir",
+          "route": ""
+        },
+        {
+          "icon": "DOCUMENT",
+          "label": "Ver tarjeta\nregalo",
+          "route": "transaction_result",
+          "arguments": true
+        },
+        {
+          "icon": "GIFT",
+          "label": "Enviar otro\nregalo",
+          "route": "menu_move_money",
+          "replace-route": true
+        }
+      ]
+    },
+    "success": {
+      "icon": "OK",
+      "title": "¡Envío exitoso!",
+      "voucher-label": "Comprobante No.",
+      "origin-account": {
+        "acordeon-label": "Producto origen",
+        "account-type-label": "Mi producto de",
+        "new-balance-label": "Nuevo saldo disponible",
+        "sent-value-label": "Valor enviado",
+        "sent-dates": "Datos del envío"
+      },
+      "destination-account": {
+        "acordeon-label": "Producto destino",
+        "cost-label": "Costo"
+      },
+      "shortcuts": [
+        {
+          "icon": "SHARE",
+          "label": "Compartir",
+          "route": ""
+        },
+        {
+          "icon": "SEND_MONEY_2",
+          "label": "Realizar otro envío",
+          "route": "/qr_reading_main_menu",
+          "replace-route": true
+        }
+      ]
+    },
+    "error": {
+      "icon": "ERROR",
+      "title": "Transferencia rechazada",
+      "voucher-label": "Comprobante No.",
+      "error-message": "La transferencia no pudo realizarse con éxito.\nInténtalo más tarde.",
+      "shortcuts": [
+        {
+          "icon": "ADD_MONEY",
+          "label": "Realizar otro envío",
+          "route": "menu_move_money",
+          "replace-route": true
+        }
+      ]
+    }
+  }
+}

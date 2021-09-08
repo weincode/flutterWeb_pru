@@ -1,0 +1,68 @@
+{
+    "recharge_history":{
+        "header": {
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "label": "",
+                "enabled": false
+            }
+        },
+        "title": "RECARGAS",
+        "subtitle": "Historial de recargas",
+        "status": {
+            "success": "Exitosa",
+            "reject": "Rechazada",
+            "pending": "Pendiente"
+        }
+    },
+    "recharge_detail":{
+        "header": {
+            "title": "Historial de recargas",
+            "leftItem": {
+                "label": "Volver",
+                "enabled": true,
+                "icon": "ARROW2_LEFT"
+            },
+            "rightItem": {
+                "label": "",
+                "enabled": false
+            }
+        },
+        "success_page":{
+            "title": "Recarga exitosa",
+            "message": ""
+        },
+        "reject_page":{
+            "title": "Recarga rechazada",
+            "message": "Lo sentimos , la recarga no pudo realizarse con éxito. Inténtalo más tarde"
+        },
+        "pending_page":{
+            "title": "Recarga pendiente",
+            "message": "En pocos minutos recibirás un mensaje de texto informándote si la recarga fue exitosa o no."
+        },
+        "voucher_number_label": "Comprobante No.",
+        "origin_product_box":{
+            "title":"Producto origen"
+        },
+        "recharge_data_box":{
+            "title":"Datos de la recarga",
+            "reloaded_value":"Valor recargado",
+            "pending_value":"Valor pendiente",
+            "value":"Valor",
+            "civic_card":"Tarjeta Cívica",
+            "cost_label":"Costo de la recarga",
+            "cost_value":"$ 0,00"
+        },
+        "shortcut": [
+            {
+                "icon": "SHARE",
+                "title": "Compartir",
+                "route": "share"
+            }
+        ]
+    }
+}

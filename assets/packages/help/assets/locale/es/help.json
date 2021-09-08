@@ -1,0 +1,76 @@
+{
+  "menu_help": {
+    "rightItemVisibility":true,
+    "appBar": {
+      "title": "Ayuda",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "items": [
+      {
+        "leadingIcon": "SMARTPHONE",
+        "title": "Conoce nuestra app",
+        "subtitle": "",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "CONTACT_CENTER",
+        "title": "Contáctanos",
+        "subtitle": "Resuelve tus inquietudes",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "LOCATION",
+        "title": "Visítanos",
+        "subtitle": "Puntos de atención",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "VisitUs"
+      },
+      {
+        "leadingIcon": "COMMENT",
+        "title": "Tips de seguridad",
+        "subtitle": "",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "ANALYTICS",
+        "title": "Actualidad económica",
+        "subtitle": "",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "LAW",
+        "title": "Defensor del consumidor financiero",
+        "subtitle": "",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "MIXED_SERVICE",
+        "title": "Línea ética",
+        "subtitle": "Reporta irregularidades legales",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      },
+      {
+        "leadingIcon": "INFO",
+        "title": "Información de interés",
+        "subtitle": "",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": ""
+      }
+    ]
+  }
+}

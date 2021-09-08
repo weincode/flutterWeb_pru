@@ -1,0 +1,40 @@
+{
+    "title": "Inscríbete a Clave Dinámica",
+    "enrollmentText":"Validando..",
+    "dynamic_key_onboarding": {
+        "onboarding-registration": [
+            {
+                "title": "Inscríbete a Clave Dinámica",
+                "description": "Para realizar transacciones de una manera más fácil y segura.",
+                "image": "gestionar_clave_dinamica"
+            },
+            {
+                "description": "La Clave Dinámica es un código de seguridad que nos ayuda a validar que las transacciones estén saliendo desde tu celular.",
+                "image": "inscripcion_clave_dinamica_2"
+            },
+            {
+                "description": "Desde ahora este será el dispositivo principal para tus transacciones, validándose con Clave Dinámica de forma automática en tu móvil.",
+                "image": "inscripcion_clave_dinamica"
+            }
+        ]
+    },
+    "inscription_error": {
+        "image": "proceso_error",
+        "title": "Algo salió mal",
+        "message": "Ocurrió un error al momento de cargar la información. Inténtalo nuevamente.",
+        "buttonText": "VOLVER A INTENTAR",
+        "secondButtonTitle": "SALIR",
+        "code": "Código 0000"
+    },
+    "inscription_success": {
+        "image": "ilustracion_app_2",
+        "title": "¡La Inscripción fue exitosa!",
+        "buttonText": "ACEPTAR",
+        "message": "",
+        "rigthItem": {
+            "label": "Continuar",
+            "enabled" : true,
+            "icon" : "ARROW2_RIGHT"
+        }
+    }
+}

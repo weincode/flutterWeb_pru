@@ -1,0 +1,92 @@
+{
+  "header": {
+    "left": {
+      "icon": "ARROW2_LEFT",
+      "label": "Volver",
+      "enabled": true
+    },
+    "center": {
+      "icon": "",
+      "label": "Mi cuenta Bancolombia",
+      "enabled": true
+    }
+  },
+  "title": "Mi cuenta Bancolombia",
+  "subTitle": "MIS PRODUCTOS",
+  "account": {
+    "name": "Número de cuenta",
+    "id": "012-345678-90",
+    "balanceLabel": "Saldo disponible",
+    "balance": "0"
+  },
+  "tabs": [
+    {
+      "name": "Detalle",
+      "items": [
+        {
+          "label": "Saldo total",
+          "value": "",
+          "toolTip": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+        }
+      ]
+    },
+    {
+      "name": "Movimientos",
+      "items": [
+        {
+          "date": "03 MAR 2020",
+          "description": "TRANSFERENCIA CTA SUC VIRTUAL",
+          "reference": "1222900003",
+          "value": "67789.00"
+        },
+        {
+          "date": "03 MAR 2020",
+          "description": "TRANSFERENCIA CTA SUC VIRTUAL",
+          "reference": "1222900003",
+          "value": "-67789.00"
+        }
+      ],
+      "filter": {
+        "cleanLabel": "Limpiar busqueda",
+        "overlay": {
+          "title": "Movimientos",
+          "inputs": [
+            {
+              "labelText": "Buscar",
+              "hintText": "Buscar"
+            },
+            {
+              "labelText": "Selecciona un rango de fecha",
+              "hintText": "Desde - Hasta"
+            }
+          ],
+          "cleanLabel": "Limpiar campos",
+          "buttons": [
+            {
+              "enabled": true,
+              "label": "BUSCAR",
+              "style": "Primary",
+              "icon": "SIGN_IN_ALT"
+            },
+            {
+              "enabled": true,
+              "label": "CERRAR",
+              "style": "Secondary",
+              "icon": "SIGN_IN_ALT"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "shortcuts": [
+    {
+      "title": "Enviar dinero",
+      "icon": "CHEVRON_LEFT"
+    },
+    {
+      "title": "Retirar dinero",
+      "icon": "CHEVRON_LEFT"
+    }
+  ]
+}

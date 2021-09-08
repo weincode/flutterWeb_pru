@@ -1,0 +1,25 @@
+{
+  "mainContent": {
+    "bodyText": "Registra un familiar o amigo como Contacto de Emergencia para que reciba el código de seguridad que te ayudará a realizar transacciones cuando no tengas tu celular.\nAl registrarlo declaras estar autorizado para compartir sus datos.\nPodrás editar tus contactos más adelante en la sucursal virtual web en:",
+    "menuDescription": "Menú » Contactos de Emergencia",
+    "contactItem": {
+      "title": "Contacto %s",
+      "nameLabel": "Nombre",
+      "phoneLabel": "Número celular",
+      "buttonLabel": "Cambiar"
+    },
+    "contactSave": {
+      "createTitle": "Agregar contacto %s",
+      "editTitle": "Editar contacto %s",
+      "nameLabel": "Nombre del contacto",
+      "phoneLabel": "Número celular",
+      "createButtonLabel": "Agregar",
+      "editButtonLabel": "Editar"
+    },
+    "addItem": {
+      "title": "Agregar contacto %s",
+      "optionalLabel": "(Opcional)",
+      "mandatoryLabel": "(Obligatorio)"
+    }
+  }
+}

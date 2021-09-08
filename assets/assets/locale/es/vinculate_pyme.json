@@ -1,0 +1,166 @@
+{
+  "juridicalInfo": {
+    "appBar": {
+      "title": "",
+      "left": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "center": {
+        "label": ""
+      },
+      "right": {
+        "label": "Enviar",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "header": {
+      "title": "Validación de tu negocio",
+      "subtitle": "VINCULACIÓN PYMES",
+      "description": "Para continuar debemos validar información con la Cámara de Comercio. En un día hábil enviaremos la respuesta al correo que ingreses a continuación:"
+    },
+    "body": {
+      "email": {
+        "label": "Ingresa correo electrónico",
+        "help": "Ingresa correo electrónico",
+        "error": "Correo electrónico no válido"
+      },
+      "confirmEmail": {
+        "label": "Confirma tu correo electrónico",
+        "help": "Confirma tu correo electrónico",
+        "error": "Correo electrónico no válido"
+      }
+    },
+    "footer": {
+      "labelPrimary": "ENVIAR",
+      "labelSecondary": "CANCELAR",
+      "labelAccept": "Acepto el envío de la información",
+      "titleModal": "Cancelar proceso",
+      "messageModal": "¿Estas seguro que deseas salir del proceso?",
+      "acceptModal": "aceptar",
+      "cancelModal": "Volver"
+    }
+  },
+  "juridicalInfoSuccessfull": {
+    "body": {
+      "title": "¡Validación en proceso!",
+      "description": "Tus datos han sido enviados exitosamente y serán verificados en Cámara de Comercio. \n\n Recibirás una notificación a tu correo cuando el proceso este finalizado.",
+      "button": "ACEPTAR"
+    }
+  },
+  "profiling_steps": {
+    "appBar": {
+      "title": "",
+      "left": {
+        "label": "Cancelar",
+        "label2": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "center": {
+        "label": ""
+      },
+      "right": {
+        "label": "Siguiente",
+        "enabled": true,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "header": {
+      "profiling_title": "Datos de tu negocio",
+      "emergency_contact_title": "Contactos de Emergencia",
+      "subtitle": "VINCULACIÓN PYMES"
+    },
+    "profiling_questions_body": {
+      "help_text": "¿Podemos ayudarte? ",
+      "help_link_text": "¡Llámanos!",
+      "question_card_label": "*La información es exclusiva de Bancolombia, sólo servirá para ajustar y personalizar la oferta.",
+      "overlay_button_text": "CERRAR"
+    },
+    "terms_and_conditions_body": {
+      "body_image": "aceptar_terminos",
+      "body_label": "Para continuar, debes leer y aceptar los términos y condiciones de Pymes."
+    },
+    "error_page": {
+      "primary_button_text": "VOLVER A INTENTAR",
+      "secondary_button_text": "SALIR",
+      "title": "Algo salió mal",
+      "error_code_prefix": "Código"
+    },
+    "footer": {
+      "paginatorButtonText": "SIGUIENTE",
+      "body": {
+        "accept_terms_text": "Aceptar",
+        "accept_terms_link_text": "Términos y condiciones"
+      }
+    },
+    "cancel_process_alert": {
+      "title": "Cancelar proceso",
+      "message": "¿Estas seguro que deseas salir del proceso? ",
+      "primary_button_label": "SALIR",
+      "secondary_button_label": "REGRESAR"
+    },
+    "terms_and_conditions_text_page": {
+      "appBar": {
+        "title": "Términos y condiciones",
+        "left": {
+          "label": "Volver",
+          "enabled": true,
+          "icon": "ARROW2_LEFT"
+        }
+      },
+      "header": {
+        "title": "Términos y condiciones"
+      },
+      "footer": {
+        "primary_button_label": "ACEPTAR",
+        "secondary_button_label": "RECHAZAR"
+      },
+      "alert": {
+        "title": "Acepta los términos y condiciones para continuar."
+      }
+    }
+  },
+  "vinculation_success": {
+    "header": {
+      "title": "Vinculación Exitosa",
+      "right": {
+        "label": "Continuar",
+        "enabled": true,
+        "icon": "CHEVRON_RIGHT"
+      }
+    },
+    "body": {
+      "tile": "¡La vinculación fue exitosa!",
+      "buttonText": "CONTINUAR",
+      "image": "ilustracion_app_2",
+      "icon": "OK"
+    }
+  },
+  "one_step_more": {
+    "header": {
+      "title": "Un paso más",
+      "right": {
+        "label": "Ingresar",
+        "enabled": true,
+        "icon": "CHEVRON_RIGHT"
+      }
+    },
+    "body": {
+      "tile": "¡Un paso más!",
+      "subtitle": "Para realizar transacciones, debes cambiar la clave de tu cuenta personal en un cajero automático.",
+      "buttonText": "INGRESAR",
+      "image": "gestionar_clave_dinamica"
+    }
+  },
+  "vinculate_error": {
+    "image": "buscar-empresa",
+    "title": "Aún no eres cliente Pymes",
+    "message": "No tienes una cuenta habilitada para usar esta App. Si quieres abrir una cuenta, conoce las",
+    "button_text": "SALIR",
+    "bc_link_text": "soluciones para negocios haciendo clic aquí.",
+    "bc_link_url": "https://www.grupobancolombia.com/negocios-pymes"
+  }
+}

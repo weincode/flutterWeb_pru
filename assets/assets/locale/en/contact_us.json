@@ -1,0 +1,73 @@
+{
+  "menu_contact_us": {
+    "appBar": {
+      "title": "Contáctanos",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Contáctanos",
+    "subtitle": "AYUDA",
+    "items": [
+      {
+        "leadingIcon": "WHATSAPP_OUTLINE",
+        "label": "Hablemos por Whatsapp",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "whatsapp"
+      },
+      {
+        "leadingIcon": "CHAT",
+        "label": "Chatea con nosotros",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "chat-us"
+      },
+      {
+        "leadingIcon": "PHONE_CONTACT",
+        "label": "Llámanos",
+        "trailingIcon": "ARROW2_RIGHT",
+        "route": "call-us"
+      }
+    ]
+  },
+  "menu_phone_call_us": {
+    "appBar": {
+      "title": "Llámanos",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Llámanos",
+    "subtitle": "AYUDA"
+  },
+  "menu_phone_advisor": {
+    "appBar": {
+      "title": "Llámanos",
+      "leftItem": {
+        "label": "Volver",
+        "enabled": true,
+        "icon": "ARROW2_LEFT"
+      },
+      "rightItem": {
+        "label": "",
+        "enabled": false,
+        "icon": "ARROW2_RIGHT"
+      }
+    },
+    "title": "Llámanos",
+    "subtitle": "LINEAS BANCOLOMBIA"
+  }
+}
